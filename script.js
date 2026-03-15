@@ -515,9 +515,7 @@ function applyTranslations(lang) {
     const t = ui[lang] || ui.en;
     const langLabel = document.querySelector('.language-selector span');
     if (langLabel) langLabel.textContent = t.languageLabel;
-    
-    }
-    
+
     Object.entries(t.nav).forEach(([key, value]) => {
         const btn = document.querySelector(`.nav-btn[data-section="${key}"]`);
         if (btn) btn.textContent = value;
