@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Noto+Sans+Arabic:wght@400;500;600&family=Noto+Sans+Myanmar:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Noto+Sans+Arabic:wght@400;500;600;700&family=Noto+Sans+Myanmar:wght@400;500;700&display=swap');
 
 * {
     margin: 0;
@@ -21,8 +21,12 @@
     --shadow: rgba(0, 0, 0, 0.1);
 }
 
-body {
+html {
     font-family: "Poppins", sans-serif;
+}
+
+body {
+    font-family: inherit;
     background: #F7FAFC;
     color: #2D3748;
     line-height: 1.6;
@@ -31,11 +35,20 @@ body {
 /* Language-specific font fallbacks for full glyph support */
 html[lang="ar"],
 html[lang="ps"] {
-    font-family: "Noto Sans Arabic", "Poppins", sans-serif;
+    font-family: "Noto Sans Arabic", "Noto Naskh Arabic", "Amiri", "Scheherazade New", "Segoe UI", Tahoma, Arial, sans-serif;
 }
 
 html[lang="my"] {
-    font-family: "Noto Sans Myanmar", "Poppins", sans-serif;
+    font-family: "Noto Sans Myanmar", "Myanmar Text", "Nirmala UI", "Padauk", "Segoe UI", Arial, sans-serif;
+}
+
+html[lang="ar"] .hero h1,
+html[lang="ps"] .hero h1,
+html[lang="my"] .hero h1,
+html[lang="ar"] .footer-content h3,
+html[lang="ps"] .footer-content h3,
+html[lang="my"] .footer-content h3 {
+    font-weight: 600;
 }
 
 /* Language Selector */
