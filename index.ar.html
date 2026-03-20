@@ -1,0 +1,814 @@
+﻿<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Literacy for Refugees - Clarkston</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Language Selector -->
+    <div class="language-selector">
+        <span>اللغة:</span>
+        <a class="lang-btn" data-lang="en" href="index.en.html">English</a>
+        <a class="lang-btn active" data-lang="ar" href="index.ar.html">العربية</a>
+        <a class="lang-btn" data-lang="ps" href="index.ps.html">پښتو</a>
+        <a class="lang-btn" data-lang="my" href="index.my.html">မြန်မာ</a>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="hero">
+            <h1 id="title">محو الأمية الصحية لمجتمعات اللاجئين</h1>
+            <p id="subtitle">معلومات صحية سهلة الوصول للاجئين في كلاركستون، جورجيا</p>
+</div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <button class="nav-btn active" data-section="home">Home</button>
+            <button class="nav-btn" data-section="illnesses">Common Illnesses</button>
+            <button class="nav-btn" data-section="mental">Mental Health</button>
+            <button class="nav-btn" data-section="nutrition">Nutrition</button>
+            <button class="nav-btn" data-section="vaccines">التطعيمات</button>
+            <button class="nav-btn" data-section="resources">Free Clinics</button>
+            <button class="nav-btn" data-section="food-banks">Food Banks</button>
+            <button class="nav-btn" data-section="survey">Health Survey</button>
+            <button class="nav-btn" data-section="emergency">Emergency Help</button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Home Section -->
+        <section id="home" class="section active">
+            <div class="welcome-card">
+                <h2>Welcome to Your Health Resource</h2>
+                <p>This website provides health information specifically for refugee communities in Clarkston, Georgia. We focus on common illnesses, mental health support, nutrition guidance, and resources for accessing healthcare.</p>
+                
+                <div class="quick-links">
+                    <h3>Quick Access:</h3>
+                    <div class="link-grid">
+                        <div class="link-card" data-section="illnesses">
+                            <i class="fas fa-head-side-cough"></i>
+                            <span>Common Illnesses</span>
+                        </div>
+                        <div class="link-card" data-section="resources">
+                            <i class="fas fa-hospital"></i>
+                            <span>Free Clinics</span>
+                        </div>
+                        <div class="link-card" data-section="mental">
+                            <i class="fas fa-brain"></i>
+                            <span>Mental Health</span>
+                        </div>
+                        <div class="link-card" data-section="food-banks">
+                            <i class="fas fa-utensils"></i>
+                            <span>Food Banks</span>
+                        </div>
+                        <div class="link-card" data-section="emergency">
+                            <i class="fas fa-phone-alt"></i>
+                            <span>Emergency</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Common Illnesses Section -->
+        <section id="illnesses" class="section">
+            <h2>Common Illnesses in Refugee Communities</h2>
+            <p>Click on any illness to learn about symptoms, treatment, and prevention.</p>
+            
+            <div class="illness-grid">
+                <div class="illness-card">
+                    <div class="card-header">
+                        <h3>Common cold:</h3>
+                    </div>
+                    <div class="card-body">
+                        <img class="card-image" src="images/common-cold.jpg" alt="Person with common cold symptoms">
+                        <p>The common cold is a viral upper respiratory infection that is caused by over 200 different viruses and is spread through airborne droplets when an infected person coughs/sneezes. It typically lasts for about 7-10 days. It’s one of the most common illnesses in the world and can happen at any age.A cold is typically mild but it can still impact your sleep quality and concentration.</p>
+                        <h4>Symptoms include:</h4>
+                        <ul class="symptom-list">
+                            <li>Runny/stuffy nose</li>
+                            <li>Sore throat</li>
+                            <li>Coughing</li>
+                            <li>Sneezing</li>
+                            <li>Headache</li>
+                            <li>Low-grade fever</li>
+                        </ul>
+                        <p><strong>Solution:</strong> Treatment focuses on relieving symptoms through rest, drinking lots of water, and taking over-the-counter medications. Drinking warm soups can also help with throat irritation. Antibiotics will not help because they don’t treat viral infections.</p>
+                    </div>
+                </div>
+
+                <div class="illness-card">
+                    <div class="card-header">
+                        <h3>Flu (Influenza):</h3>
+                    </div>
+                    <div class="card-body">
+                        <img class="card-image" src="images/flu.png" alt="Person with flu symptoms">
+                        <p>Also known as influenza, the flu is a contagious respiratory illness caused by a virus that attacks the nose, throat, and lungs. The flu virus has several strains that change annually, which is why seasonal outbreaks happen every year. The flu spreads easily, especially in very crowded places like at school or work.</p>
+                        <h4>Symptoms include:</h4>
+                        <ul class="symptom-list">
+                            <li>Sudden fever</li>
+                            <li>Cough</li>
+                            <li>Sore throat</li>
+                            <li>Body aches</li>
+                            <li>Fatigue</li>
+                            <li>Headache</li>
+                            <li>Reduced appetite</li>
+                        </ul>
+                        <p><strong>Solution:</strong> Most people can recover on their own. There are antivirals that can also be used to reduce the duration of illness if given within the first 48 hours of symptoms. These are prescriptions and must be given by a physician.  The flu can lead to severe complications or even death in some cases especially for elderly people, young children, and those with chronic medical conditions. The best way to prevent the flu is getting a yearly flu vaccine. There are many cheap/free health clinics in Clarkston which we’ve shared on the home page.</p>
+                    </div>
+                </div>
+
+                <div class="illness-card">
+                    <div class="card-header">
+                        <h3>Hepatitis:</h3>
+                    </div>
+                    <div class="card-body">
+                        <img class="card-image" src="images/hepatitis.jpg" alt="Person with abdominal pain">
+                        <p>Hepatitis is an inflammation of the liver caused by viruses and there are 5 main types.</p>
+                        <ol class="symptom-list">
+                            <li>Hepatitis A: spread through contaminated food or water</li>
+                            <li>Hepatitis B: spread through contact with infected bodily fluids</li>
+                            <li>Hepatitis C: spread through contact with infected blood</li>
+                            <li>Hepatitis D: only infects people who already have hepatitis B</li>
+                            <li>Hepatitis E: spreads through contaminated water</li>
+                        </ol>
+                        <p>Hepatitis can range from very mild and short-term to severe and life-threatening. Chronic hepatitis can lead to long-term liver damage and in some cases liver failure if left untreated.</p>
+                        <h4>Symptoms include:</h4>
+                        <ul class="symptom-list">
+                            <li>Jaundice (yellowing of the skin or eyes)</li>
+                            <li>Fatigue</li>
+                            <li>Nausea</li>
+                            <li>Vomiting</li>
+                            <li>Abdominal pain</li>
+                            <li>Liver damage</li>
+                            <li>Cirrhosis</li>
+                            <li>Liver cancer (in severe cases)</li>
+                        </ul>
+                        <p><strong>Solution:</strong> The best way to fight disease is to prevent it all together through vaccines - currently there are Hepatitis A and Hepatitis B vaccines given during infancy and the newborn period. If you have an active infection, you can take antiviral medication. Drinking clean water and avoiding sharing food and personal items with friends also reduces the risk of transmitting certain forms of Hepatitis.</p>
+                    </div>
+                </div>
+
+                <div class="illness-card">
+                    <div class="card-header">
+                        <h3>Malaria:</h3>
+                    </div>
+                    <div class="card-body">
+                        <img class="card-image" src="images/malaria.png" alt="Person with malaria symptoms">
+                        <p>Malaria is a disease that is caused by mosquitoes. It is spread when an infected female mosquito bites a person and injects the parasites into their blood. It remains a major cause for illness and even death in a lot of developing countries. It’s common in tropical regions and without treatment, malaria can become life-threatening.</p>
+                        <h4>Symptoms include:</h4>
+                        <ul class="symptom-list">
+                            <li>Fever</li>
+                            <li>Chills</li>
+                            <li>Sweating</li>
+                            <li>Headache</li>
+                            <li>Muscle aches</li>
+                            <li>Fatigue</li>
+                            <li>Nausea and Vomiting</li>
+                        </ul>
+                        <p><strong>Solution:</strong> The malaria vaccine is designed to prevent the risk of malaria and control the spread.Unfortunately, the vaccine isn’t routinely given in the United States. In addition, using mosquito nets and insect repellent are early prevention methods.</p>
+                    </div>
+                </div>
+
+                <div class="illness-card">
+                    <div class="card-header">
+                        <h3>Poliovirus:</h3>
+                    </div>
+                    <div class="card-body">
+                        <img class="card-image" src="images/poliovirus.png" alt="Child receiving a polio vaccine">
+                        <p>Poliovirus is a highly infectious disease which enters the body through the mouth and increases in the throat. It can spread by touching people and things that have been infected. Many people have no symptoms or very mild symptoms, and a small percentage of people develop a worse version of the condition called Abortive Polio. This happen in about 5% of those infected.</p>
+                        <h4>Symptoms of Abortive Polio include:</h4>
+                        <ul class="symptom-list">
+                            <li>Muscle weakness</li>
+                            <li>Deformities</li>
+                            <li>Loss of mobility</li>
+                            <li>Fever</li>
+                            <li>Sore Throat</li>
+                            <li>Vomiting/Nausea</li>
+                        </ul>
+                        <p><strong>Solution:</strong> Again, prevention is key!  The IPV vaccine is a 4 part vaccine given to children starting infancy. This prevents illness.</p>
+                    </div>
+                </div>
+
+                <div class="illness-card">
+                    <div class="card-header">
+                        <h3>Strep Throat:</h3>
+                    </div>
+                    <div class="card-body">
+                        <img class="card-image" src="images/strep-throat.png" alt="Person with sore throat">
+                        <p>Strep Throat is a common bacterial infection that spreads through coughing, sneezing, or touching surfaces that have bacteria. It’s caused by Group A Streptococcus bacterium and is the most common in children but can really affect anyone. It spreads very quickly in crowded places like schools, public transportation, and work.</p>
+                        <h4>Symptoms Include:</h4>
+                        <ul class="symptom-list">
+                            <li>Fever</li>
+                            <li>Sore throat</li>
+                            <li>Headache</li>
+                            <li>Stomachache</li>
+                            <li>Pain when swallowing</li>
+                            <li>Reduced appetite</li>
+                        </ul>
+                        <p><strong>Solution:</strong> Strep throat is best treated with antibiotics that are prescribed by the doctor. Antibiotics reduce the period where you’re contagious and prevent other complications. Drinking warm liquids like soup or tea also help relieve pain in the throat.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mental Health Section -->
+        <section id="mental" class="section">
+            <h2>Mental Health Support</h2>
+            <div class="mental-health-content">
+                <div class="mental-card">
+                    <h3>PTSD:</h3>
+                    <img class="card-image" src="images/ptsd.png" alt="Person experiencing stress">
+                    <p>PTSD stands for Post-traumatic Stress Syndrome. It results from exposure to trauma like wars, torture, and violence. PTSD can affect sleep, emotions, and memory. So many people are dealing with it because of ongoing stress and unstable or dangerous living conditions. These people are more vulnerable because their nervous system constantly stays on high alert.</p>
+                    <h4>Symptoms Include:</h4>
+                    <ul class="symptom-list">
+                        <li>Nightmares/flashbacks</li>
+                        <li>Trouble sleeping</li>
+                        <li>Feeling sad/depressed</li>
+                        <li>Loss of interest in daily activities</li>
+                        <li>Always tense</li>
+                    </ul>
+                    <h4>How to Overcome This:</h4>
+                    <ul class="symptom-list">
+                        <li>You can overcome this through community-based support which is inexpensive and effective. If you don’t have a supportive community there are many exercises or activities to do as well.</li>
+                        <li>You can do deep breathing exercises that calm nerves.</li>
+                        <li>Some activities that help include walking/hiking, stretching, yoga, or even spending time outside.</li>
+                        <li>Having a routine everyday can also help the brain feel safer and more stable.</li>
+                        <li>Writing your thoughts down in a journal or talking with someone you trust helps release all the emotional pressure.</li>
+                    </ul>
+                </div>
+
+                <div class="mental-card">
+                    <h3>Mental Health Illnesses:</h3>
+                    <img class="card-image" src="images/mental-health-illness.png" alt="Person seeking mental health support">
+                    <p>Mental health refers to psychological and emotional well-being. It affects how people think and make everyday decisions. Many people who are struggling with mental health diseases, specifically anxiety, depression and PTSD, are living in unstable living conditions and have experienced trauma or have limited resources. These people may experience very high levels of stress, anxiety and sadness.</p>
+                    <h4>How to Know if You’re Struggling with Mental Health:</h4>
+                    <ul class="symptom-list">
+                        <li>Difficulty sleeping due to anxiety/stress</li>
+                        <li>Always feeling overwhelmed</li>
+                        <li>Constant feeling of isolation</li>
+                        <li>Struggling to concentrate</li>
+                        <li>Problems with sleep – sleeping too much or to little</li>
+                        <li>Loss of interest in activities that you found interesting before</li>
+                        <li>Guilt</li>
+                    </ul>
+                </div>
+
+                <div class="mental-card">
+                    <h3>Ways to seek help:</h3>
+                    <ul class="symptom-list">
+                        <li>Talking to a trusted community member or having a community-based support group can help.</li>
+                        <li>Similar to PTSD, practicing breathing exercises, drawing or writing in a journal to release emotions, and spending time outside all helps to deal with mental health struggles.</li>
+                        <li>Staying socially connected with people and having small conversations can improve moods.</li>
+                        <li>Talking to a therapist or mental health specialist</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Nutrition Section -->
+        <section id="nutrition" class="section">
+            <h2>Nutrition & Physical Health</h2>
+            <div class="nutrition-content">
+                <div class="nutrition-card">
+                    <h3>Malnutrition:</h3>
+                    <img class="card-image contain" src="images/malnutrition.png" alt="Balanced plate illustration">
+                    <p>Malnutrition is when your body lacks the necessary nutrients and or calories to stay healthy. It is caused by illness, food insecurity, and poor absorption of nutrients. Young children and pregnant women are the most vulnerable. In some cases when it’s severe, it can impact growth, immunity, and cognitive development.</p>
+                    <h4>Symptoms include:</h4>
+                    <ul class="symptom-list">
+                        <li>Weight loss</li>
+                        <li>Fatigue</li>
+                        <li>Weakness</li>
+                        <li>Hair Loss</li>
+                        <li>Dizziness</li>
+                    </ul>
+                    <p><strong>Solution:</strong> To improve it you need to focus on nutrient dense meals packed with core vitamins such as vitamin D, C, and iron. If you're having trouble finding good grocery stores, click the Food Banks button to see food banks near you!Another solution would be access to a balanced meal. This is what a balanced meal should look like:</p>
+                </div>
+
+                <div class="nutrition-card">
+                    <h3>Physical Health Problems:</h3>
+                    <img class="card-image" src="images/physical-health-problems.jpg" alt="People practicing yoga outdoors">
+                    <p>Physical Health is the condition your body is in regarding nutrition, fitness, and disease prevention.</p>
+                    <h4>Why Physical Health Matters:</h4>
+                    <ul class="symptom-list">
+                        <li>Improves mood and energy</li>
+                        <li>Helps the body stay strong when stressed</li>
+                        <li>Reduces the risk of illness/infections</li>
+                        <li>Supports better mental health because movement does lower stress hormones</li>
+                        <li>Helps with growth and development</li>
+                    </ul>
+                    <h4>Ways to Improve Physical Health:</h4>
+                    <ul class="clinic-list">
+                        <li><span>Going on daily walks can strengthen the heart and muscles</span></li>
+                        <li><span>Stretching, squats, or push-ups can help manage your body weight</span></li>
+                        <li><span>Having a balanced diet so eating simple, healthy, nutrient-filled meals (If you don’tknow what a healthy plate looks like go back to Malnutrition and view the image)</span></li>
+                        <li><span>Keep your home clean and let fresh air in when it’s possible</span></li>
+                        <li><span>Keep up with yearly vaccines and checkups at clinics (Go back to homepage to find low-cost clinics near you!)</span></li>
+                        <li><span>Sleeping at least eight hours every night is crucial!</span></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Immunization Section -->
+        <section id="vaccines" class="section">
+            <h2>التطعيمات</h2>
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <h3>Recommended Child and Adolescent Immunization Schedule for Ages 18 Years or Younger, United States, 2026</h3>
+                    <p>الجدول 1: اللقاحات الروتينية حسب العمر (من الولادة حتى 18 عامًا).</p>
+                    <p><strong>الملف:</strong> <a href="images/Recommended%20Child%20and%20Adolescent%20Immunization%20Schedule%20for%2018%20years%20or%20younger,%20United%20States.pdf" target="_blank" rel="noopener noreferrer">Recommended Child and Adolescent Immunization Schedule for 18 years or younger, United States.pdf</a></p>
+                </div>
+                <div class="resource-card">
+                    <h3>Recommended Child and Adolescent Immunization Schedule by Medical Indication, United States, 2026</h3>
+                    <p>الجدول 3: اللقاحات الموصى بها حسب الحالات الطبية وعوامل الخطورة.</p>
+                    <p><strong>الملف:</strong> <a href="images/Reccomended%20Child%20and%20adolescent%20immunization%20schedule%20by%20medical%20indication.pdf" target="_blank" rel="noopener noreferrer">Reccomended Child and adolescent immunization schedule by medical indication.pdf</a></p>
+                </div>
+                <div class="resource-card">
+                    <h3>Recommended Catch-up Immunization Schedule for Children and Adolescents Who Start Late or Who Are More than 1 Month Behind, United States, 2026</h3>
+                    <p>الجدول 2: جدول التعويض للأطفال والمراهقين الذين بدأوا متأخرًا أو لديهم تأخر لأكثر من شهر.</p>
+                    <p><strong>الملف:</strong> <a href="images/Reccomended%20Catch-Up%20immunization%20Schedule%20for%20Children%20and%20Adolescents%20who%20start%20late.pdf" target="_blank" rel="noopener noreferrer">Reccomended Catch-Up immunization Schedule for Children and Adolescents who start late.pdf</a></p>
+                </div>
+                <div class="resource-card">
+                    <h3>Vaccines and Other Immunizing Agents in the Child and Adolescent Immunization Schedule</h3>
+                    <p>قائمة مفصلة باللقاحات والاختصارات وأسماء العلامات التجارية؛ استخدمه لمعلومات أكثر تحديدًا.</p>
+                    <p><strong>الملف:</strong> <a href="images/AAP-Immunization-Schedule.pdf" target="_blank" rel="noopener noreferrer">AAP-Immunization-Schedule.pdf</a></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resources Section -->
+        <section id="resources" class="section">
+            <h2>Cheap/Free Clinics In Clarkston:</h2>
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <h3>1. Mosaic Health Center</h3>
+                    <p><strong>Their Mission:</strong> Mosaic Health Center’s mission is to provide healthcare services to patients without health insurance for a low price. They have a very diverse staff that speak 13 languages on site, removing the language barrier issue.</p>
+                    <p><strong>Contact Information:</strong></p>
+                    <p>Phone Number: (678) 383-1383</p>
+                    <p>Email Address: info@mosaichealthcenter.com</p>
+                    <p><strong>Location:</strong> 3700 Market Street, Building B, Clarkston, GA 30021</p>
+                    <p><strong>Services:</strong></p>
+                    <ul class="symptom-list">
+                        <li>Primary Care - offers comprehensive, patient centered, and culturally competent health care services for adults to address non-emergency health needs)</li>
+                        <li>Internal Specialty Care – provide services for women’s health, mental health, vision, dermatology, ultrasound imaging, and Cardiology.</li>
+                        <li>Assisted Specialty Referrals – these referrals are very cheap and, in some cases, free!</li>
+                    </ul>
+                    <p><strong>Click here to learn more about this clinic:</strong> <a href="https://www.mosaichealthcenter.com/" target="_blank" rel="noopener noreferrer">https://www.mosaichealthcenter.com/</a></p>
+                </div>
+
+                <div class="resource-card">
+                    <h3>2. Physicians’ Care Clinic</h3>
+                    <p><strong>Their Mission:</strong> Physicians’ Care Clinics mission is to offer health care to thousands of English and Non-English residents. They provide services to low-income and uninsured individuals with quality non-emergency medical care.</p>
+                    <p><strong>Contact Information:</strong></p>
+                    <p>Phone Number: (404) 501-7940</p>
+                    <p><strong>Location:</strong> 440 Winn Way Decatur, GA 30033</p>
+                    <p><strong>Services:</strong></p>
+                    <ul class="symptom-list">
+                        <li>Primary Medical Care – access to primary care physicians, referrals to specialists, provide medication from on-site pharmacy.</li>
+                        <li>Screenings – Blood pressure, Mammography for breast cancer, Colonoscopy for colorectal cancer, BMI for obesity management, etc.</li>
+                        <li>Diagnostic Tests – yearly flu shots, blood pressure, and blood glucose monitoring</li>
+                    </ul>
+                    <p><strong>Click here to learn more about this clinic:</strong> <a href="https://www.physicianscareclinic.org/" target="_blank" rel="noopener noreferrer">https://www.physicianscareclinic.org/</a></p>
+                </div>
+
+                <div class="resource-card">
+                    <h3>3. Positive Impact Health Services</h3>
+                    <p><strong>Their mission:</strong> Positive Impact Health Center's mission is to provide care for the HIV community, and they focus on delivering comprehensive, accessible services. These services support the health and the wellbeing of people affected by HIV.</p>
+                    <p><strong>Contact Information:</strong></p>
+                    <p>Phone Numbers:</p>
+                    <ul class="symptom-list">
+                        <li>1. Decatur Center: (404) 589-9040</li>
+                        <li>2. Duluth Center: (770) 962-8396</li>
+                        <li>3. Marietta Center: (770) 514-2464</li>
+                        <li>4. Clayton Center: (678) 210-9750</li>
+                    </ul>
+                    <p>Locations:</p>
+                    <ul class="symptom-list">
+                        <li>Decatur Center: 523 Church Street, Decatur, GA 30030</li>
+                        <li>Duluth Center: 3350 Breckinridge Blvd, Suite 200, Duluth, GA 30096</li>
+                        <li>Marietta Center: 1650 County Services Parkway, Suite 200, Marietta, GA 30008</li>
+                        <li>Clayton Center: 1117 Battle Creek Rd, Jonesboro, GA 30236</li>
+                    </ul>
+                    <p><strong>Services:</strong></p>
+                    <ul class="symptom-list">
+                        <li>HIV Medical Care</li>
+                        <li>Pharmacy Services</li>
+                        <li>HIV Testing (for free) and STI Screening</li>
+                        <li>Mental Health Counseling and Psychiatry</li>
+                        <li>Substance Abuse Treatment and Counseling</li>
+                        <li>Nutritional Counseling</li>
+                    </ul>
+                    <p><strong>Click here to learn more about this clinic:</strong> <a href="https://www.positiveimpacthealthcenters.org/" target="_blank" rel="noopener noreferrer">https://www.positiveimpacthealthcenters.org/</a></p>
+                </div>
+            </div>
+
+            <div class="resource-card" style="margin-top: 30px;">
+                <h3>Some additional clinics include:</h3>
+                <p>Clarkston Clinic</p>
+                <p>Sunday | 11:00 AM – 2:00 PM</p>
+                <p>4773 Memorial Dr, Decatur, GA 30032</p>
+                <p>(Located alongside the ICNA Relief Food Pantry)</p>
+                <p>Duluth Clinic</p>
+                <p>Thursday & Saturday | 10:00 AM – 2:00 PM</p>
+                <p>3650 Savannah Pl Dr, Duluth, GA 3009</p>
+                <p>Phone: (770-837-5805)</p>
+                <p>Al-Farooq Clinic:- https://alfarooqmasjid.org/services/medical-clinic/- Open Sundays from 12-2pm</p>
+                <p>East Cobb Islamic Center:- Open Saturdays from 9am-11:30- https://www.ecicfreeclinic.org/</p>
+                <p>Good Samaritan Clinic:- https://goodsamatlanta.org-Open MondaythroughThursday at 7:45am-4:00pm-Open Friday and Saturday at 7:45-noon</p>
+                <p>Shifa Clinic Duluth:- https://shifaclinicduluth.weebly.com/- Open Saturdays from 10am-1pm (by appointment only)</p>
+                <p>H.E.A.L clinic:- https://www.morehousehealthcare.com/programs/heal.html- Open Saturdays from 10am-1pm</p>
+                <p>Grant Park Clinic:- https://www.grantparkclinic.org/-Open Monday - Thurs: 8am-3:30pm-Open Friday at 8am-2pm</p>
+                <p>Physicians Care Clinic:- https://www.physicianscareclinic.org- Open Tuesday and Thursday evenings by appointment</p>
+            </div>
+        </section>
+
+        <!-- Food Banks Section -->
+        <section id="food-banks" class="section">
+            <h2>Food Banks in Atlanta:</h2>
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <h3>DOWNTOWN:</h3>
+                    <p>Atlanta Justice Alliance, most Saturdays 12pm at Woodruff Park. IG: @atlantajusticealliance @ 10 Park Place NE, Atlanta, GA 30303</p>
+                    <p>Food Not Bombs, first Fridays 7p in front of For Keeps Books; 2nd & 4th Fridays 7-9pm at the MLK Jr Dr SW @ Morehouse intersection IG: @atlfoodnotbombs</p>
+                </div>
+                <div class="resource-card">
+                    <h3>SOUTH SIDE:</h3>
+                    <p>ATL Liberation Distro, every Wednesday 1–4pm at Greenbriar Rec Center. IG: @southsideatl</p>
+                    <p>Free99 Fridge, daily food pantry shelves at:— 2022 Oakland Drive, Atlanta 30315— 879 Dill Ave SW Atlanta 30310 (AUC student-led)— 3124 Metropolitan Pkwy, Atlanta 30311</p>
+                    <p>East End Community Dinner, Tuesday 5pm at Lifelong Wellness. IG: @east_end_commons_atl</p>
+                </div>
+                <div class="resource-card">
+                    <h3>EAST SIDE:</h3>
+                    <p>Tabernacle of Praise Food Distribution, every 3rd Thursday 11am–2pm @ 3020 Maynard Holbrook Jr Dr NW. 4046969606</p>
+                    <p>Rehoboth Food Pantry, every Tuesday 10:30am–1pm at 2997 Lawrenceville Hwy. 6787202510</p>
+                    <p>Intown Cares, food pantry M–F 9:30am–12:30pm @ 1026 Ponce de Leon Ave NE, Atlanta. 4048811991</p>
+                </div>
+                <div class="resource-card">
+                    <h3>WEST SIDE:</h3>
+                    <p>Free99 Fridge, all of Atlanta, every Friday 11am–4pm at 3728 Wendell Dr SW. IG: @free99fridge</p>
+                    <p>Goodr Grocery PopUps, follow IG for weekly popups. IG: @goodrco</p>
+                    <p>Westside Food Fair, Sundays 1pm–3pm at 970 Jefferson St NW. IG: @happy_tuesday</p>
+                    <p>Fountain of Hope, 10am–12pm Tues and Thurs @ 1138 Bolton Rd. 4049847990</p>
+                </div>
+                <div class="resource-card">
+                    <h3>BUCKHEAD:</h3>
+                    <p>Grain of Rice, free hot meals every Sunday morning near Lindbergh. DM @consult.slfa for info</p>
+                </div>
+                <div class="resource-card">
+                    <h3>OUTSIDE THE PERIMETER:</h3>
+                    <p>Stone Mountain, Showers, Tents, Food Pantry — Maranatha SDA Church @ 2730 Dresden Dr. 4042841409</p>
+                    <p>Various food pantries, check: www.foodpantries.org/ci/ga-atlanta</p>
+                </div>
+                <div class="resource-card">
+                    <h3>OTHER NOTES:</h3>
+                    <p>Most items updated weekly</p>
+                    <p>Phone numbers may change</p>
+                    <p>Much of the work done by the organizers is electrically powered</p>
+                    <p>This list was made anonymously. If neighborhood anarchists will have one for your community, email fonb.atl313@protonmail.com</p>
+                    <p>If you want your neighborhood distro on this list or want to help out, DM @xvansesatlanta_</p>
+                </div>
+            </div>
+        </section>
+
+                <!-- Survey Section -->
+        <section id="survey" class="section">
+            <h2>Website Feedback Survey</h2>
+            <p>Help us improve this website to better serve the refugee community</p>
+            
+            <div class="survey-section">
+                <form id="website-feedback-form" action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="8aed7e01-bf2e-44f4-a589-6481b6fcdf74">
+                    <input type="hidden" name="subject" value="Website Feedback - Refugee Health Literacy">
+                    <input type="hidden" name="from_name" value="Health Literacy Website Feedback">
+                    
+                    <!-- Name Field (ONLY ONE) -->
+                    <div class="form-group">
+                        <label for="feedback-name"><i class="fas fa-user"></i> Your Name (Optional)</label>
+                        <input type="text" id="feedback-name" name="name" placeholder="Enter your name">
+                    </div>
+                    
+                    <!-- Email Field (ONLY ONE) -->
+                    <div class="form-group">
+                        <label for="feedback-email"><i class="fas fa-envelope"></i> Email Address (Optional)</label>
+                        <input type="email" id="feedback-email" name="email" placeholder="Enter your email if you'd like a response">
+                    </div>
+
+                    <div class="survey-question">
+                        <h4>1. How easy was it to find the information you needed?</h4>
+                        <div class="options">
+                            <label class="option-label">
+                                <input type="radio" name="ease_of_use" value="Very Easy" required>
+                                <span class="option-text">Very Easy</span>
+                            </label>
+                            <label class="option-label">
+                                <input type="radio" name="ease_of_use" value="Easy">
+                                <span class="option-text">Easy</span>
+                            </label>
+                            <label class="option-label">
+                                <input type="radio" name="ease_of_use" value="Somewhat Difficult">
+                                <span class="option-text">Somewhat Difficult</span>
+                            </label>
+                            <label class="option-label">
+                                <input type="radio" name="ease_of_use" value="Very Difficult">
+                                <span class="option-text">Very Difficult</span>
+                            </label>
+                        </div>
+                    </div>
+
+
+                    <div class="survey-question">
+                        <h4>2. Which language did you use most? (Select all that apply)</h4>
+                        <div class="options">
+                            <label class="option-label checkbox-label">
+                                <input type="checkbox" name="languages_used[]" value="English">
+                                <span class="option-text">English</span>
+                            </label>
+                            <label class="option-label checkbox-label">
+                                <input type="checkbox" name="languages_used[]" value="Arabic">
+                                <span class="option-text">Arabic (العربية)</span>
+                            </label>
+                            <label class="option-label checkbox-label">
+                                <input type="checkbox" name="languages_used[]" value="Pashto">
+                                <span class="option-text">Pashto (پښتو)</span>
+                            </label>
+                            <label class="option-label checkbox-label">
+                                <input type="checkbox" name="languages_used[]" value="Burmese">
+                                <span class="option-text">Burmese (မြန်မာ)</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="survey-question">
+                        <h4>3. What sections of the website did you find most useful?</h4>
+                        <div class="options">
+                            <label class="option-label checkbox-label">
+                                <input type="checkbox" name="useful_sections[]" value="Common Illnesses">
+                                <span class="option-text">Common Illnesses</span>
+                            </label>
+                            <label class="option-label checkbox-label">
+                                <input type="checkbox" name="useful_sections[]" value="Mental Health">
+                                <span class="option-text">Mental Health</span>
+                            </label>
+                            <label class="option-label checkbox-label">
+                                <input type="checkbox" name="useful_sections[]" value="Nutrition">
+                                <span class="option-text">Nutrition & Physical Health</span>
+                            </label>
+                            <label class="option-label checkbox-label">
+                                <input type="checkbox" name="useful_sections[]" value="Vaccines">
+                                <span class="option-text">Vaccines Information</span>
+                            </label>
+                            <label class="option-label checkbox-label">
+                                <input type="checkbox" name="useful_sections[]" value="Free Clinics">
+                                <span class="option-text">Free Clinics & Resources</span>
+                            </label>
+                            <label class="option-label checkbox-label">
+                                <input type="checkbox" name="useful_sections[]" value="Emergency">
+                                <span class="option-text">Emergency Information</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="survey-question">
+                        <h4>4. What can we improve about this website? (Select all that apply)</h4>
+                        <div class="options">
+                            <label class="option-label checkbox-label">
+                                <input type="checkbox" name="improvements[]" value="More Languages">
+                                <span class="option-text">Add more languages</span>
+                            </label>
+                            <label class="option-label checkbox-label">
+                                <input type="checkbox" name="improvements[]" value="More Illnesses">
+                                <span class="option-text">Cover more illnesses</span>
+                            </label>
+                            <label class="option-label checkbox-label">
+                                <input type="checkbox" name="improvements[]" value="Better Navigation">
+                                <span class="option-text">Make navigation easier</span>
+                            </label>
+                            <label class="option-label checkbox-label">
+                                <input type="checkbox" name="improvements[]" value="Mobile Friendly">
+                                <span class="option-text">Make it more mobile-friendly</span>
+                            </label>
+                            <label class="option-label checkbox-label">
+                                <input type="checkbox" name="improvements[]" value="More Resources">
+                                <span class="option-text">Add more local resources</span>
+                            </label>
+                            <label class="option-label checkbox-label">
+                                <input type="checkbox" name="improvements[]" value="Faster Loading">
+                                <span class="option-text">Make it load faster</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="survey-question">
+                        <h4>5. How did you hear about this website?</h4>
+                        <div class="options">
+                            <label class="option-label">
+                                <input type="radio" name="referral_source" value="Ethaar Organization" required>
+                                <span class="option-text">Ethaar Organization</span>
+                            </label>
+                            <label class="option-label">
+                                <input type="radio" name="referral_source" value="Friend/Family">
+                                <span class="option-text">Friend or Family Member</span>
+                            </label>
+                            <label class="option-label">
+                                <input type="radio" name="referral_source" value="Community Center">
+                                <span class="option-text">Clarkston Community Center</span>
+                            </label>
+                            <label class="option-label">
+                                <input type="radio" name="referral_source" value="Doctor/Clinic">
+                                <span class="option-text">Doctor or Clinic</span>
+                            </label>
+                            <label class="option-label">
+                                <input type="radio" name="referral_source" value="Other">
+                                <span class="option-text">Other</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="survey-question">
+                        <h4>6. How likely are you to recommend this website to others?</h4>
+                        <div class="rating-scale">
+                            <div class="scale-labels">
+                                <span>Not at all likely</span>
+                                <span>Very likely</span>
+                            </div>
+                            <div class="scale-options">
+                                <label class="scale-label">
+                                    <input type="radio" name="recommendation" value="1" required>
+                                    <span class="scale-number">1</span>
+                                </label>
+                                <label class="scale-label">
+                                    <input type="radio" name="recommendation" value="2">
+                                    <span class="scale-number">2</span>
+                                </label>
+                                <label class="scale-label">
+                                    <input type="radio" name="recommendation" value="3">
+                                    <span class="scale-number">3</span>
+                                </label>
+                                <label class="scale-label">
+                                    <input type="radio" name="recommendation" value="4">
+                                    <span class="scale-number">4</span>
+                                </label>
+                                <label class="scale-label">
+                                    <input type="radio" name="recommendation" value="5">
+                                    <span class="scale-number">5</span>
+                                </label>
+                                <label class="scale-label">
+                                    <input type="radio" name="recommendation" value="6">
+                                    <span class="scale-number">6</span>
+                                </label>
+                                <label class="scale-label">
+                                    <input type="radio" name="recommendation" value="7">
+                                    <span class="scale-number">7</span>
+                                </label>
+                                <label class="scale-label">
+                                    <input type="radio" name="recommendation" value="8">
+                                    <span class="scale-number">8</span>
+                                </label>
+                                <label class="scale-label">
+                                    <input type="radio" name="recommendation" value="9">
+                                    <span class="scale-number">9</span>
+                                </label>
+                                <label class="scale-label">
+                                    <input type="radio" name="recommendation" value="10">
+                                    <span class="scale-number">10</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Additional Suggestions Field (ONLY ONE) -->
+                    <div class="survey-question">
+                        <h4>7. Additional Suggestions for Improvement</h4>
+                        <div class="form-group">
+                            <textarea id="feedback-message" name="message" rows="6" placeholder="Please share any specific suggestions, problems you encountered, or features you'd like to see added..."></textarea>
+                        </div>
+                    </div>
+                    
+                    <div class="form-footer">
+                        <button type="submit" class="submit-btn">
+                            <i class="fas fa-paper-plane"></i> Submit Feedback
+                        </button>
+                        <p class="form-note">Your feedback is confidential and will only be used to improve this website.</p>
+                    </div>
+                    
+                    <div id="form-success" class="form-success" style="display: none;">
+                        <i class="fas fa-check-circle"></i>
+                        <h3>Thank You for Your Feedback!</h3>
+                        <p>Your suggestions have been submitted successfully. We'll use them to make this website better for everyone.</p>
+                    </div>
+                    
+                    <div id="form-error" class="form-error" style="display: none;">
+                        <i class="fas fa-exclamation-circle"></i>
+                        <h3>Oops! Something went wrong.</h3>
+                        <p>Please try again or contact us directly at healthclarkston@gmail.com</p>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <!-- Emergency Section -->
+        <section id="emergency" class="section">
+            <div class="emergency-box">
+                <h2><i class="fas fa-exclamation-triangle"></i> Emergency Help</h2>
+                <p>If you or someone needs immediate medical help:</p>
+                
+                <div class="emergency-contacts">
+                    <div class="contact-card">
+                        <h3>Call 911</h3>
+                        <p>For life-threatening emergencies</p>
+                        <p><strong>Free call from any phone</strong></p>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <h3>Poison Control</h3>
+                        <p>1-800-222-1222</p>
+                        <p>24/7 free help in many languages</p>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <h3>Crisis Hotline</h3>
+                        <p>Dial 988</p>
+                        <p>Mental health crisis support</p>
+                    </div>
+                </div>
+
+                <h3 style="margin-top: 30px;">When to Go to Emergency Room:</h3>
+                <ul class="symptom-list" style="background: rgba(255,255,255,0.1); border-left: 4px solid white;">
+                    <li>Chest pain or pressure</li>
+                    <li>Difficulty breathing</li>
+                    <li>Severe bleeding</li>
+                    <li>Sudden weakness or numbness</li>
+                    <li>Severe burn</li>
+                    <li>Broken bone</li>
+                    <li>Overdose or poisoning</li>
+                    <li>Thoughts of harming yourself or others</li>
+                </ul>
+
+                <div style="background: white; color: #E53E3E; padding: 20px; border-radius: 10px; margin-top: 20px;">
+                    <h4><i class="fas fa-ambulance"></i> Nearest Hospital to Clarkston:</h4>
+                    <p><strong>Emory Decatur Hospital</strong></p>
+                    <p>2701 N Decatur Road, Decatur, GA 30033</p>
+                    <p><strong>Emergency Department:</strong> (404) 501-1000</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <h3>محو الأمية الصحية للاجئين في كلاركستون</h3>
+            <p>تم إنشاؤه بالشراكة مع مجتمع كلاركستون</p>
+            
+            <div class="partner-logos">
+                <div class="partner-logo">Ethaar Organization</div>
+            </div>
+            
+            <p style="margin-top: 20px; opacity: 0.8;">
+                هل تحتاج مساعدة؟ اتصل بـ Ethaar: (470) 235-2383
+            </p>
+</div>
+    </footer>
+
+        <!-- Hugging Face Chatbot -->
+    <div class="chatbot-container" id="chatbotContainer">
+        <div class="chatbot-header">
+            <h3><i class="fas fa-robot"></i> Health Assistant</h3>
+            <button class="close-chatbot" id="closeChatbot">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="chatbot-messages" id="chatbotMessages">
+            <div class="message bot-message">
+                <p>Hello! I'm your health information assistant. I can help answer questions about common illnesses, mental health, nutrition, vaccines, and local resources in Clarkston. How can I help you today?</p>
+            </div>
+        </div>
+        <div class="chatbot-input">
+            <input type="text" id="chatbotInput" placeholder="Type your health question here..." autocomplete="off">
+            <button id="sendChatbotMessage">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Chatbot Toggle Button (Floating) -->
+    <button class="chatbot-toggle" id="chatbotToggle">
+        <i class="fas fa-robot"></i>
+        <span>Health Assistant</span>
+    </button>
+
+    <script>
+        window.CHATBOT_API_BASE_URL = "https://health-chatbot-worker.yoshvithaa.workers.dev";
+    </script>
+    <script src="script.js?v=20260315"></script>
+</body>
+</html>
+
+
+
+
