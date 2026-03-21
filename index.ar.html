@@ -34,6 +34,7 @@
             <button class="nav-btn" data-section="nutrition">التغذية</button>
             <button class="nav-btn" data-section="vaccines">اللقاحات</button>
             <button class="nav-btn" data-section="resources">عيادات مجانية</button>
+            <button class="nav-btn" data-section="food-banks">بنوك الطعام</button>
             <button class="nav-btn" data-section="survey">استبيان صحي</button>
             <button class="nav-btn" data-section="emergency">مساعدة طارئة</button>
         </div>
@@ -61,6 +62,10 @@
                         <div class="link-card" data-section="mental">
                             <i class="fas fa-brain"></i>
                             <span>الصحة النفسية</span>
+                        </div>
+                        <div class="link-card" data-section="food-banks">
+                            <i class="fas fa-utensils"></i>
+                            <span>بنوك الطعام</span>
                         </div>
                         <div class="link-card" data-section="emergency">
                             <i class="fas fa-phone-alt"></i>
@@ -387,35 +392,30 @@
             </div>
         </section>
 
-        <!-- Vaccines Section -->
+        <!-- Immunization Section -->
         <section id="vaccines" class="section">
-            <h2>اللقاحات المهمة</h2>
-            <div class="vaccine-grid">
-                <div class="vaccine-card">
-                    <h3><i class="fas fa-syringe"></i> لقاح الإنفلونزا</h3>
-                    <p>أفضل طريقة للوقاية من الإنفلونزا كل عام</p>
-                    <p><strong>متى:</strong> خذه سنويًا قبل موسم الإنفلونزا</p>
+            <h2>التطعيمات</h2>
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <h3>الجدول الموصى به لتطعيمات الأطفال والمراهقين حتى 18 سنة، الولايات المتحدة 2026</h3>
+                    <p>الجدول 1: اللقاحات الروتينية حسب العمر (من الولادة حتى 18 عامًا).</p>
+                    <p><strong>الملف:</strong> <a href="images/Recommended%20Child%20and%20Adolescent%20Immunization%20Schedule%20for%2018%20years%20or%20younger,%20United%20States.pdf" target="_blank" rel="noopener noreferrer">جدول تطعيم الأطفال والمراهقين حتى 18 سنة - الولايات المتحدة 2026 (PDF)</a></p>
                 </div>
-                <div class="vaccine-card">
-                    <h3><i class="fas fa-syringe"></i> لقاحا التهاب الكبد أ وب</h3>
-                    <p>يحميان الكبد من التهابات الكبد</p>
-                    <p><strong>يعطى:</strong> خلال الطفولة وفترة الولادة</p>
+                <div class="resource-card">
+                    <h3>الجدول الموصى به لتطعيمات الأطفال والمراهقين حسب الحالة الطبية، الولايات المتحدة 2026</h3>
+                    <p>الجدول 3: اللقاحات الموصى بها حسب الحالات الطبية وعوامل الخطورة.</p>
+                    <p><strong>الملف:</strong> <a href="images/Reccomended%20Child%20and%20adolescent%20immunization%20schedule%20by%20medical%20indication.pdf" target="_blank" rel="noopener noreferrer">جدول التطعيم حسب الحالة الطبية للأطفال والمراهقين (PDF)</a></p>
                 </div>
-                <div class="vaccine-card">
-                    <h3><i class="fas fa-syringe"></i> لقاح شلل الأطفال (IPV)</h3>
-                    <p>يمنع الإصابة بفيروس شلل الأطفال</p>
-                    <p><strong>الجدول:</strong> 4 جرعات تبدأ في الرضاعة</p>
+                <div class="resource-card">
+                    <h3>الجدول الاستدراكي الموصى به للأطفال والمراهقين المتأخرين عن التطعيم، الولايات المتحدة 2026</h3>
+                    <p>الجدول 2: جدول الاستدراك للأطفال والمراهقين الذين بدأوا متأخرًا أو تأخروا أكثر من شهر.</p>
+                    <p><strong>الملف:</strong> <a href="images/Reccomended%20Catch-Up%20immunization%20Schedule%20for%20Children%20and%20Adolescents%20who%20start%20late.pdf" target="_blank" rel="noopener noreferrer">جدول التطعيم الاستدراكي للأطفال والمراهقين المتأخرين (PDF)</a></p>
                 </div>
-                <div class="vaccine-card">
-                    <h3><i class="fas fa-syringe"></i> لقاح الملاريا</h3>
-                    <p>يقلل خطر الملاريا ويساعد على الحد من انتشارها</p>
-                    <p><strong>أيضًا:</strong> استخدم ناموسيات وطارد حشرات</p>
+                <div class="resource-card">
+                    <h3>اللقاحات وعوامل التحصين الأخرى ضمن جدول تطعيم الأطفال والمراهقين</h3>
+                    <p>قائمة تفصيلية لاختصارات اللقاحات وأسمائها التجارية لمعلومات أكثر تحديدًا.</p>
+                    <p><strong>الملف:</strong> <a href="images/AAP-Immunization-Schedule.pdf" target="_blank" rel="noopener noreferrer">قائمة اللقاحات والاختصارات (AAP) (PDF)</a></p>
                 </div>
-            </div>
-            
-            <div class="emergency-box" style="background: linear-gradient(135deg, #38A169, #2F855A); margin-top: 40px;">
-                <h3>أين تحصل على اللقاحات</h3>
-                <p>استخدم العيادات منخفضة التكلفة في قسم العيادات. كثير منها يوفر اللقاحات أو الإحالات.</p>
             </div>
         </section>
 
@@ -457,6 +457,46 @@
                 <p>بطاقات MARTA مجانية متاحة للمواعيد الطبية</p>
                 <p><strong>اتصل بمنظمة إيثار:</strong> (470) 235-2383</p>
                 <p>يمكنهم المساعدة في النقل إلى المواعيد الطبية</p>
+            </div>
+        </section>
+
+        <!-- Food Banks Section -->
+        <section id="food-banks" class="section">
+            <h2>بنوك الطعام في أتلانتا:</h2>
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <h3>وسط المدينة:</h3>
+                    <p>تحالف العدالة في أتلانتا: معظم أيام السبت الساعة 12 ظهرًا في Woodruff Park. إنستغرام: @atlantajusticealliance، العنوان: 10 Park Place NE, Atlanta, GA 30303</p>
+                    <p>Food Not Bombs: أول جمعة من كل شهر الساعة 7 مساءً أمام For Keeps Books؛ والجمعتان الثانية والرابعة من 7-9 مساءً عند تقاطع MLK Jr Dr SW مع Morehouse. إنستغرام: @atlfoodnotbombs</p>
+                </div>
+                <div class="resource-card">
+                    <h3>الجنوب:</h3>
+                    <p>ATL Liberation Distro: كل أربعاء من 1-4 مساءً في Greenbriar Rec Center. إنستغرام: @southsideatl</p>
+                    <p>Free99 Fridge: رفوف طعام يومية في: 2022 Oakland Drive, Atlanta 30315؛ و 879 Dill Ave SW Atlanta 30310؛ و 3124 Metropolitan Pkwy, Atlanta 30311</p>
+                    <p>عشاء مجتمع East End: كل ثلاثاء الساعة 5 مساءً في Lifelong Wellness. إنستغرام: @east_end_commons_atl</p>
+                </div>
+                <div class="resource-card">
+                    <h3>الشرق:</h3>
+                    <p>توزيع طعام Tabernacle of Praise: كل خميس ثالث من 11 صباحًا إلى 2 ظهرًا في 3020 Maynard Holbrook Jr Dr NW. هاتف: 4046969606</p>
+                    <p>مخزن طعام Rehoboth: كل ثلاثاء من 10:30 صباحًا إلى 1 ظهرًا في 2997 Lawrenceville Hwy. هاتف: 6787202510</p>
+                    <p>Intown Cares: مخزن طعام من الإثنين إلى الجمعة، 9:30 صباحًا - 12:30 ظهرًا في 1026 Ponce de Leon Ave NE, Atlanta. هاتف: 4048811991</p>
+                </div>
+                <div class="resource-card">
+                    <h3>الغرب:</h3>
+                    <p>Free99 Fridge: في أنحاء أتلانتا، كل جمعة من 11 صباحًا إلى 4 مساءً في 3728 Wendell Dr SW. إنستغرام: @free99fridge</p>
+                    <p>Goodr Grocery PopUps: تابع إنستغرام لمعرفة الفعاليات الأسبوعية. إنستغرام: @goodrco</p>
+                    <p>معرض الطعام Westside: كل أحد من 1-3 مساءً في 970 Jefferson St NW. إنستغرام: @happy_tuesday</p>
+                    <p>Fountain of Hope: من 10 صباحًا إلى 12 ظهرًا يومي الثلاثاء والخميس في 1138 Bolton Rd. هاتف: 4049847990</p>
+                </div>
+                <div class="resource-card">
+                    <h3>منطقة Buckhead:</h3>
+                    <p>Grain of Rice: وجبات ساخنة مجانية كل صباح أحد قرب Lindbergh. راسل @consult.slfa للمعلومات</p>
+                </div>
+                <div class="resource-card">
+                    <h3>خارج المحيط:</h3>
+                    <p>Stone Mountain: دشّات وخيام ومخزن طعام - Maranatha SDA Church في 2730 Dresden Dr. هاتف: 4042841409</p>
+                    <p>مخازن طعام أخرى: راجع www.foodpantries.org/ci/ga-atlanta</p>
+                </div>
             </div>
         </section>
 
