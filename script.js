@@ -176,7 +176,7 @@ function initLanguage() {
         },
         my: {
             title: "ဒုက္ခသည်များအတွက် ကျန်းမာရေးအချက်အလက်များ",
-            subtitle: "ဂျော်ဂျီယာပြည်နယ်၊ Clarkston ရှိ ဒုက္ခသည်များအတွက် ကျန်းမာရေးအချက်အလက်များ"
+            subtitle: "ဂျော်ဂျီယာပြည်နယ်၊ ကလာ့ခ်စတန် ရှိ ဒုက္ခသည်များအတွက် ကျန်းမာရေးအချက်အလက်များ"
         }
     };
 
@@ -411,7 +411,7 @@ function applyTranslations(lang) {
                 nutrition: 'التغذية',
                 vaccines: 'التطعيمات',
                 resources: 'عيادات مجانية',
-                'food-banks': 'Food Banks',
+                'food-banks': 'بنوك الطعام',
                 survey: 'استبيان صحي',
                 emergency: 'مساعدة طارئة'
             },
@@ -422,7 +422,7 @@ function applyTranslations(lang) {
                 illnesses: 'أمراض شائعة',
                 resources: 'عيادات مجانية',
                 mental: 'الصحة النفسية',
-                'food-banks': 'Food Banks',
+                'food-banks': 'بنوك الطعام',
                 emergency: 'الطوارئ'
             },
             sectionTitles: {
@@ -430,8 +430,8 @@ function applyTranslations(lang) {
                 mental: 'دعم الصحة النفسية',
                 nutrition: 'التغذية والصحة البدنية',
                 vaccines: 'التطعيمات',
-                resources: 'Cheap/Free Clinics In Clarkston:',
-                'food-banks': 'Food Banks in Atlanta:',
+                resources: 'عيادات مجانية/منخفضة التكلفة في كلاركستون:',
+                'food-banks': 'بنوك الطعام في أتلانتا:',
                 survey: 'استبيان صحي',
                 emergency: 'مساعدة طارئة'
             },
@@ -451,7 +451,7 @@ function applyTranslations(lang) {
                 nutrition: 'تغذیه',
                 vaccines: 'واکسینونه',
                 resources: 'وړیا کلینیکونه',
-                'food-banks': 'Food Banks',
+                'food-banks': 'د خوړو بانکونه',
                 survey: 'روغتیايي سروې',
                 emergency: 'بیړنۍ مرسته'
             },
@@ -462,7 +462,7 @@ function applyTranslations(lang) {
                 illnesses: 'عامې ناروغۍ',
                 resources: 'وړیا کلینیکونه',
                 mental: 'ذهني روغتیا',
-                'food-banks': 'Food Banks',
+                'food-banks': 'د خوړو بانکونه',
                 emergency: 'بیړنۍ'
             },
             sectionTitles: {
@@ -470,8 +470,8 @@ function applyTranslations(lang) {
                 mental: 'د ذهني روغتیا ملاتړ',
                 nutrition: 'تغذیه او بدني روغتیا',
                 vaccines: 'واکسینونه',
-                resources: 'Cheap/Free Clinics In Clarkston:',
-                'food-banks': 'Food Banks in Atlanta:',
+                resources: 'په کلارکستون کې ارزانه/وړیا کلینیکونه:',
+                'food-banks': 'په اټلانټا کې د خوړو بانکونه:',
                 survey: 'روغتیايي سروې',
                 emergency: 'بیړنۍ مرسته'
             },
@@ -491,18 +491,18 @@ function applyTranslations(lang) {
                 nutrition: 'အာဟာရ',
                 vaccines: 'ကာကွယ်ဆေးများ',
                 resources: 'အခမဲ့ဆေးခန်းများ',
-                'food-banks': 'Food Banks',
+                'food-banks': 'အစားအစာ ဘဏ်များ',
                 survey: 'ကျန်းမာရေးစစ်တမ်း',
                 emergency: 'အရေးပေါ်အကူအညီ'
             },
             homeTitle: 'သင့်ကျန်းမာရေး အရင်းအမြစ်သို့ ကြိုဆိုပါသည်',
-            homeDesc: 'ဤဝဘ်ဆိုဒ်သည် Georgia ပြည်နယ် Clarkston ရှိ ဒုက္ခသည်အသိုင်းအဝိုင်းများအတွက် ကျန်းမာရေးအချက်အလက်များကို ပေးပါသည်။ အဖြစ်များသောရောဂါများ၊ စိတ်ကျန်းမာရေးအကူအညီ၊ အာဟာရလမ်းညွှန်နှင့် ကျန်းမာရေးဝန်ဆောင်မှုများကို ရယူရန် အရင်းအမြစ်များကို အလေးထားထားပါသည်။',
+            homeDesc: 'ဤဝဘ်ဆိုဒ်သည် ဂျော်ဂျီယာ ပြည်နယ် ကလာ့ခ်စတန် ရှိ ဒုက္ခသည်အသိုင်းအဝိုင်းများအတွက် ကျန်းမာရေးအချက်အလက်များကို ပေးပါသည်။ အဖြစ်များသောရောဂါများ၊ စိတ်ကျန်းမာရေးအကူအညီ၊ အာဟာရလမ်းညွှန်နှင့် ကျန်းမာရေးဝန်ဆောင်မှုများကို ရယူရန် အရင်းအမြစ်များကို အလေးထားထားပါသည်။',
             quickAccess: 'လျင်မြန်စွာ ရယူရန်:',
             quickLinks: {
                 illnesses: 'အဖြစ်များသောရောဂါများ',
                 resources: 'အခမဲ့ဆေးခန်းများ',
                 mental: 'စိတ်ကျန်းမာရေး',
-                'food-banks': 'Food Banks',
+                'food-banks': 'အစားအစာ ဘဏ်များ',
                 emergency: 'အရေးပေါ်'
             },
             sectionTitles: {
@@ -510,8 +510,8 @@ function applyTranslations(lang) {
                 mental: 'စိတ်ကျန်းမာရေးအကူအညီ',
                 nutrition: 'အာဟာရနှင့် ကိုယ်ခန္ဓာကျန်းမာရေး',
                 vaccines: 'ကာကွယ်ဆေးများ',
-                resources: 'Cheap/Free Clinics In Clarkston:',
-                'food-banks': 'Food Banks in Atlanta:',
+                resources: 'ကလာ့ခ်စတန်ရှိ စျေးသက်သာ/အခမဲ့ ဆေးခန်းများ:',
+                'food-banks': 'အတ္တလန်တာရှိ အစားအစာ ဘဏ်များ:',
                 survey: 'ကျန်းမာရေးစစ်တမ်း',
                 emergency: 'အရေးပေါ်အကူအညီ'
             },
@@ -708,7 +708,7 @@ function updateChatbotGreeting(lang) {
         en: "Hello! I'm your health information assistant. I can help answer questions about common illnesses, mental health, nutrition, vaccines, and local resources in Clarkston. How can I help you today?",
         ar: "مرحبًا! أنا مساعد المعلومات الصحية. يمكنني المساعدة في الإجابة عن أسئلة حول الأمراض الشائعة والصحة النفسية والتغذية واللقاحات والموارد المحلية في كلاركستون. كيف يمكنني مساعدتك اليوم؟",
         ps: "سلام! زه ستاسو د روغتیا معلوماتو مرستندوی یم. زه کولی شم د عامو ناروغیو، رواني روغتیا، تغذیې، واکسینونو، او په کلارکستون کې د ځایي منابعو په اړه پوښتنې ځواب کړم. نن څنګه مرسته وکړم؟",
-        my: "မင်္ဂလာပါ! ကျွန်ုပ်သည် ကျန်းမာရေးအချက်အလက်အကူအညီပေးသူဖြစ်ပါသည်။ အဖြစ်များသောရောဂါများ၊ စိတ်ကျန်းမာရေး၊ အာဟာရ၊ ကာကွယ်ဆေးများ နှင့် Clarkston ရှိ ဒေသဆိုင်ရာ အထောက်အပံ့များအကြောင်း မေးခွန်းများကို ဖြေကြားနိုင်ပါသည်။ ယနေ့ ဘယ်လိုကူညီပေးရမလဲ။"
+        my: "မင်္ဂလာပါ! ကျွန်ုပ်သည် ကျန်းမာရေးအချက်အလက်အကူအညီပေးသူဖြစ်ပါသည်။ အဖြစ်များသောရောဂါများ၊ စိတ်ကျန်းမာရေး၊ အာဟာရ၊ ကာကွယ်ဆေးများ နှင့် ကလာ့ခ်စတန် ရှိ ဒေသဆိုင်ရာ အထောက်အပံ့များအကြောင်း မေးခွန်းများကို ဖြေကြားနိုင်ပါသည်။ ယနေ့ ဘယ်လိုကူညီပေးရမလဲ။"
     };
     const text = greetings[lang] || greetings.en;
     setGreetingForLanguage(lang, text);
@@ -799,13 +799,13 @@ function getLocalHealthResponse(userMessage, language) {
             'en': "Clarkston Community Health Center: 3700 Market Street, Clarkston. Phone: (404) 501-7900. Services: primary care, pediatrics, women's health. Sliding scale fees based on income.",
             'ar': "مركز كلاركستون المجتمعي الصحي: 3700 شارع ماركت، كلاركستون. الهاتف: (404) 501-7900. الخدمات: الرعاية الأولية، طب الأطفال، صحة المرأة. الرسوم حسب الدخل.",
             'ps': "د کلارکستون ټولنیز روغتیا مرکز: 3700 مارکیټ سړک، کلارکستون. تلیفون: (404) 501-7900. خدمتونه: لومړنی پاملرنه، ماشومانو درمل، د ښځو روغتیا. د عاید پر بنسټ فیس.",
-            'my': "Clarkston Community Health Center: 3700 Market Street, Clarkston။ ဖုန်း: (404) 501-7900။ ဝန်ဆောင်မှုများ- အခြေခံကျန်းမာရေး၊ ကလေးကျန်းမာရေး၊ အမျိုးသမီးကျန်းမာရေး။ ဝင်ငွေအလိုက် ကြေးနှုန်းများ။"
+            'my': "Clarkston Community Health Center: 3700 Market Street, ကလာ့ခ်စတန်။ ဖုန်း: (404) 501-7900။ ဝန်ဆောင်မှုများ- အခြေခံကျန်းမာရေး၊ ကလေးကျန်းမာရေး၊ အမျိုးသမီးကျန်းမာရေး။ ဝင်ငွေအလိုက် ကြေးနှုန်းများ။"
         },
         'mental': {
             'en': "Mental health support: 1. Crisis Hotline: Dial 988 (24/7 free support). 2. Refugee Mental Health Program in Clarkston: Free counseling available. 3. Community support groups weekly.",
             'ar': "دعم الصحة العقلية: 1. خط المساعدة في الأزمات: اطلب 988 (دعم مجاني على مدار الساعة). 2. برنامج الصحة العقلية للاجئين في كلاركستون: استشارات مجانية متاحة. 3. مجموعات الدعم المجتمعي أسبوعيًا.",
             'ps': "د ذهني روغتیا ملاتړ: 1. د بحران تلیفون: 988 ډایل کړئ (24/7 وړیا ملاتړ). 2. په کلارکستون کې د کډوالو د ذهني روغتیا برنامه: وړیا مشورې شتون لري. 3. ټولنیز ملاتړ ډلې اونیز.",
-            'my': "စိတ်ကျန်းမာရေးအထောက်အပံ့- ၁။ အရေးပေါ်လိုင်း- ၉၈၈ ခေါ်ပါ (၂၄/၇ အခမဲ့အထောက်အပံ့)။ ၂။ Clarkston ရှိ ဒုက္ခသည်စိတ်ကျန်းမာရေးအစီအစဉ်- အခမဲ့အကြံပေးခြင်းရရှိနိုင်ပါသည်။ ၃။ အသိုင်းအဝိုင်းအထောက်အပံ့အဖွဲ့များ အပတ်စဉ်။"
+            'my': "စိတ်ကျန်းမာရေးအထောက်အပံ့- ၁။ အရေးပေါ်လိုင်း- ၉၈၈ ခေါ်ပါ (၂၄/၇ အခမဲ့အထောက်အပံ့)။ ၂။ ကလာ့ခ်စတန် ရှိ ဒုက္ခသည်စိတ်ကျန်းမာရေးအစီအစဉ်- အခမဲ့အကြံပေးခြင်းရရှိနိုင်ပါသည်။ ၃။ အသိုင်းအဝိုင်းအထောက်အပံ့အဖွဲ့များ အပတ်စဉ်။"
         },
         'vaccine': {
             'en': "Free vaccines at DeKalb County Board of Health: (404) 294-3700, 440 Winn Way, Decatur. Available: COVID-19, flu, MMR, hepatitis B, and childhood vaccines. No insurance needed.",
