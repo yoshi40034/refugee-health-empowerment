@@ -190,6 +190,8 @@ function initLanguage() {
 }
 
 function shouldAutoTranslatePage(lang) {
+    if (window.ENABLE_AUTO_TRANSLATE !== true) return false;
+
     const path = (window.location && window.location.pathname) || '';
     const isLocalizedStaticPage = /index\.(ar|ps|my)\.html$/i.test(path);
     if (isLocalizedStaticPage) return false;
@@ -594,6 +596,9 @@ function getTranslatableElements() {
         if (!el || !el.textContent) return false;
         const text = el.textContent.trim();
         if (!text) return false;
+        // Skip rich elements to avoid replacing nested links/markup with plain text.
+        if (el.querySelector('a')) return false;
+        if (el.children.length > 0) return false;
         if (el.closest('.language-selector')) return false;
         if (el.closest('.nav-container')) return false;
         if (el.closest('.chatbot-container')) return false;
