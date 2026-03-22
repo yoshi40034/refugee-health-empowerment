@@ -183,8 +183,17 @@ function initLanguage() {
     // Apply initial UI translations
     applyTranslations(window.currentLanguage);
 
-    // Apply automatic translation to remaining content
-    autoTranslatePage(window.currentLanguage);
+    // Avoid overriding curated translated pages with runtime machine translation.
+    if (shouldAutoTranslatePage(window.currentLanguage)) {
+        autoTranslatePage(window.currentLanguage);
+    }
+}
+
+function shouldAutoTranslatePage(lang) {
+    const path = (window.location && window.location.pathname) || '';
+    const isLocalizedStaticPage = /index\.(ar|ps|my)\.html$/i.test(path);
+    if (isLocalizedStaticPage) return false;
+    return lang !== 'en';
 }
 
 function initSurvey() {
@@ -253,8 +262,10 @@ function changeLanguage(lang) {
     // Update UI text
     applyTranslations(lang);
 
-    // Update remaining content
-    autoTranslatePage(lang);
+    // Update remaining content only when appropriate for this page.
+    if (shouldAutoTranslatePage(lang)) {
+        autoTranslatePage(lang);
+    }
 }
 
 function getLanguageName(code) {
