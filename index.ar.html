@@ -1,0 +1,854 @@
+﻿<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>التثقيف الصحي للاجئين - كلاركستون</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Language Selector -->
+    <div class="language-selector">
+        <span>اللغة:</span>
+        <a class="lang-btn" data-lang="en" href="index.en.html">English</a>
+        <a class="lang-btn active" data-lang="ar" href="index.ar.html">العربية</a>
+        <a class="lang-btn" data-lang="ps" href="index.ps.html">پښتو</a>
+        <a class="lang-btn" data-lang="my" href="index.my.html">မြန်မာ</a>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="hero">
+            <h1 id="title">محو الأمية الصحية لمجتمعات اللاجئين</h1>
+            <p id="subtitle">معلومات صحية سهلة الوصول للاجئين في كلاركستون، جورجيا</p>
+</div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <button class="nav-btn active" data-section="home">الرئيسية</button>
+            <button class="nav-btn" data-section="illnesses">أمراض شائعة</button>
+            <button class="nav-btn" data-section="mental">الصحة النفسية</button>
+            <button class="nav-btn" data-section="nutrition">التغذية</button>
+            <button class="nav-btn" data-section="vaccines">اللقاحات</button>
+            <button class="nav-btn" data-section="resources">عيادات مجانية</button>
+            <button class="nav-btn" data-section="food-banks">بنوك الطعام</button>
+            <button class="nav-btn" data-section="survey">استبيان صحي</button>
+            <button class="nav-btn" data-section="emergency">مساعدة طارئة</button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Home Section -->
+        <section id="home" class="section active">
+            <div class="welcome-card">
+                <h2>مرحبًا بك في موردك الصحي</h2>
+                <p>يوفر هذا الموقع معلومات صحية مخصصة لمجتمعات اللاجئين في كلاركستون، جورجيا. نركز على الأمراض الشائعة، ودعم الصحة النفسية، وإرشادات التغذية، والموارد للوصول إلى الرعاية الصحية.</p>
+                
+                <div class="quick-links">
+                    <h3>وصول سريع:</h3>
+                    <div class="link-grid">
+                        <div class="link-card" data-section="illnesses">
+                            <i class="fas fa-head-side-cough"></i>
+                            <span>أمراض شائعة</span>
+                        </div>
+                        <div class="link-card" data-section="resources">
+                            <i class="fas fa-hospital"></i>
+                            <span>عيادات مجانية</span>
+                        </div>
+                        <div class="link-card" data-section="mental">
+                            <i class="fas fa-brain"></i>
+                            <span>الصحة النفسية</span>
+                        </div>
+                        <div class="link-card" data-section="food-banks">
+                            <i class="fas fa-utensils"></i>
+                            <span>بنوك الطعام</span>
+                        </div>
+                        <div class="link-card" data-section="emergency">
+                            <i class="fas fa-phone-alt"></i>
+                            <span>الطوارئ</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Common Illnesses Section -->
+        <section id="illnesses" class="section">
+            <h2>الأمراض الشائعة في مجتمعات اللاجئين</h2>
+            <p>انقر على أي مرض للتعرّف على الأعراض والعلاج والوقاية.</p>
+            
+            <div class="illness-grid">
+                <!-- Common Cold Card -->
+                <div class="illness-card">
+                    <div class="card-header">
+                        <h3>نزلة البرد الشائعة</h3>
+                        <span class="illness-type">عدوى فيروسية</span>
+                    </div>
+                    <div class="card-body">
+                        <img class="card-image" src="images/common-cold.jpg" alt="شخص يعاني من أعراض البرد">
+                        <p><strong>ما هو:</strong> عدوى فيروسية في الجهاز التنفسي العلوي تسببها أكثر من 200 فيروس وتنتشر عبر الرذاذ عند السعال أو العطس. عادة تستمر 7-10 أيام.</p>
+                        <h4>الأعراض:</h4>
+                        <ul class="symptom-list">
+                            <li>سيلان أو انسداد الأنف</li>
+                            <li>التهاب الحلق</li>
+                            <li>سعال</li>
+                            <li>عطاس</li>
+                            <li>صداع</li>
+                            <li>حمى خفيفة</li>
+                        </ul>
+                        <div class="treatment-info">
+                            <strong>الحل:</strong> الراحة، شرب الكثير من الماء، وأدوية بدون وصفة لتخفيف الأعراض. الحساء الدافئ يساعد على تهيّج الحلق. المضادات الحيوية لا تفيد لأن البرد فيروسي.
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <span class="contagious">عادة خفيف لكنه قد يؤثر على النوم والتركيز</span>
+</div>
+                </div>
+
+                <!-- Flu Card -->
+                <div class="illness-card">
+                    <div class="card-header">
+                        <h3>الإنفلونزا</h3>
+                        <span class="illness-type">عدوى فيروسية</span>
+                    </div>
+                    <div class="card-body">
+                        <img class="card-image" src="images/flu.png" alt="شخص يعاني من أعراض الإنفلونزا">
+                        <p><strong>ما هو:</strong> مرض تنفسي معدٍ يصيب الأنف والحلق والرئتين. تتغير سلالات الفيروس سنوياً، لذلك تحدث موجات كل عام وخاصة في الأماكن المزدحمة.</p>
+                        <h4>الأعراض:</h4>
+                        <ul class="symptom-list">
+                            <li>حمى مفاجئة</li>
+                            <li>سعال</li>
+                            <li>التهاب الحلق</li>
+                            <li>آلام الجسم</li>
+                            <li>تعب</li>
+                            <li>صداع</li>
+                            <li>نقص الشهية</li>
+                        </ul>
+                        <div class="treatment-info">
+                            <strong>الحل:</strong> يتعافى معظم الناس بالراحة والسوائل. الأدوية المضادة للفيروسات تقلل مدة المرض إذا بدأت خلال 48 ساعة ويصفها الطبيب. قد تكون الإنفلونزا خطيرة لكبار السن والأطفال ومن لديهم أمراض مزمنة.
+                        </div>
+                        <div class="prevention-info">
+                            <strong>الوقاية:</strong> لقاح الإنفلونزا السنوي، غسل اليدين، وتجنب مخالطة المرضى.
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <span class="contagious">اطلب الرعاية إذا كانت الأعراض شديدة</span>
+</div>
+                </div>
+
+                <!-- Hepatitis Card -->
+                <div class="illness-card">
+                    <div class="card-header">
+                        <h3>التهاب الكبد</h3>
+                        <span class="illness-type">عدوى كبدية فيروسية</span>
+                    </div>
+                    <div class="card-body">
+                        <img class="card-image" src="images/hepatitis.jpg" alt="شخص يعاني من ألم في البطن">
+                        <p><strong>ما هو:</strong> التهاب الكبد تسببه فيروسات. خمسة أنواع رئيسية: أ (طعام/ماء ملوث)، ب (سوائل جسم ملوثة)، ج (دم ملوث)، د (يصيب من لديهم التهاب كبد ب)، هـ (ماء ملوث).</p>
+                        <h4>الأعراض:</h4>
+                        <ul class="symptom-list">
+                            <li>يرقان (اصفرار الجلد أو العينين)</li>
+                            <li>تعب</li>
+                            <li>غثيان</li>
+                            <li>قيء</li>
+                            <li>ألم في البطن</li>
+                            <li>تلف أو تليّف الكبد</li>
+                            <li>سرطان الكبد (في الحالات الشديدة)</li>
+                        </ul>
+                        <div class="treatment-info">
+                            <strong>الحل:</strong> لقاحات التهاب الكبد أ و ب. أدوية مضادة للفيروسات للحالات النشطة. اشرب ماء نظيف وتجنب مشاركة الطعام أو الأدوات الشخصية.
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <span class="contagious">بعض الأنواع تنتقل عبر الدم أو السوائل</span>
+</div>
+                </div>
+
+                <!-- Malaria Card -->
+                <div class="illness-card">
+                    <div class="card-header">
+                        <h3>الملاريا</h3>
+                        <span class="illness-type">مرض طفيلي</span>
+                    </div>
+                    <div class="card-body">
+                        <img class="card-image" src="images/malaria.png" alt="شخص يعاني من أعراض الملاريا">
+                        <p><strong>ما هو:</strong> مرض ينقله البعوض وتسببه طفيليات. شائع في المناطق الاستوائية ويمكن أن يهدد الحياة دون علاج.</p>
+                        <h4>الأعراض:</h4>
+                        <ul class="symptom-list">
+                            <li>حمى</li>
+                            <li>قشعريرة</li>
+                            <li>تعرق</li>
+                            <li>صداع</li>
+                            <li>آلام عضلية</li>
+                            <li>تعب</li>
+                            <li>غثيان وقيء</li>
+                        </ul>
+                        <div class="treatment-info">
+                            <strong>الحل:</strong> لقاح الملاريا يقلل الخطر. استخدم ناموسيات وطارد الحشرات كوسائل وقاية مبكرة.
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <span class="contagious">اطلب الرعاية سريعاً إذا كانت الحمى عالية</span>
+</div>
+                </div>
+
+                <!-- Poliovirus Card -->
+                <div class="illness-card">
+                    <div class="card-header">
+                        <h3>فيروس شلل الأطفال</h3>
+                        <span class="illness-type">عدوى فيروسية</span>
+                    </div>
+                    <div class="card-body">
+                        <img class="card-image" src="images/poliovirus.png" alt="طفل يتلقى لقاح شلل الأطفال">
+                        <p><strong>ما هو:</strong> فيروس شديد العدوى يدخل عبر الفم ويتكاثر في الحلق. ينتشر بلمس الأشخاص المصابين أو الأسطح الملوثة. كثيرون بلا أعراض، لكن حوالي 5% يصابون بشلل الأطفال الإجهاضي.</p>
+                        <h4>أعراض شلل الأطفال الإجهاضي:</h4>
+                        <ul class="symptom-list">
+                            <li>ضعف العضلات</li>
+                            <li>تشوهات</li>
+                            <li>فقدان الحركة</li>
+                            <li>حمى</li>
+                            <li>التهاب الحلق</li>
+                            <li>غثيان أو قيء</li>
+                        </ul>
+                        <div class="treatment-info">
+                            <strong>الحل:</strong> الوقاية هي الأهم. لقاح IPV عبارة عن 4 جرعات تعطى للأطفال بدءاً من الرضاعة.
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <span class="contagious">التطعيم يمنع المرض</span>
+</div>
+                </div>
+
+                <!-- Strep Throat Card -->
+                <div class="illness-card">
+                    <div class="card-header">
+                        <h3>التهاب الحلق العقدي</h3>
+                        <span class="illness-type">عدوى بكتيرية</span>
+                    </div>
+                    <div class="card-body">
+                        <img class="card-image" src="images/strep-throat.png" alt="شخص يعاني من ألم الحلق">
+                        <p><strong>ما هو:</strong> عدوى بكتيرية شائعة تسببها المكورات العقدية من المجموعة أ. تنتشر بالسعال أو العطس أو لمس الأسطح الملوثة. شائعة لدى الأطفال لكنها قد تصيب أي شخص.</p>
+                        <h4>الأعراض:</h4>
+                        <ul class="symptom-list">
+                            <li>حمى</li>
+                            <li>التهاب الحلق</li>
+                            <li>صداع</li>
+                            <li>ألم في المعدة</li>
+                            <li>ألم عند البلع</li>
+                            <li>نقص الشهية</li>
+                        </ul>
+                        <div class="treatment-info">
+                            <strong>الحل:</strong> مضادات حيوية يصفها الطبيب. السوائل الدافئة مثل الشوربة أو الشاي تخفف ألم الحلق.
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <span class="contagious">راجع الطبيب للفحص المناسب</span>
+</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mental Health Section -->
+        <section id="mental" class="section">
+            <h2>دعم الصحة النفسية</h2>
+            <div class="mental-health-content">
+                <div class="mental-card">
+                    <h3>اضطراب ما بعد الصدمة</h3>
+                    <img class="card-image" src="images/ptsd.png" alt="شخص يعاني من توتر">
+                    <p><strong>ما هو:</strong> قد ينتج عن التعرض للصدمة مثل الحرب أو التعذيب أو العنف. يؤثر على النوم والمشاعر والذاكرة ويُبقي الجهاز العصبي في حالة تأهب.</p>
+                    <h4>الأعراض:</h4>
+                    <ul class="symptom-list">
+                        <li>كوابيس أو ذكريات مفاجئة</li>
+                        <li>صعوبة النوم</li>
+                        <li>الشعور بالحزن أو الاكتئاب</li>
+                        <li>فقدان الاهتمام بالأنشطة اليومية</li>
+                        <li>توتر دائم أو يقظة مفرطة</li>
+                    </ul>
+                    <div class="treatment-info">
+                        <strong>طرق التغلب:</strong>
+                        <ul class="symptom-list">
+                            <li>الدعم المجتمعي والعلاقات الموثوقة</li>
+                            <li>تمارين التنفس العميق لتهدئة الأعصاب</li>
+                            <li>المشي أو التمدد أو اليوغا أو قضاء وقت بالخارج</li>
+                            <li>روتين يومي ثابت للشعور بالأمان</li>
+                            <li>كتابة اليوميات أو التحدث مع شخص موثوق</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="mental-card">
+                    <h3>أمراض الصحة النفسية</h3>
+                    <img class="card-image" src="images/mental-health-illness.png" alt="شخص يطلب دعمًا نفسيًا">
+                    <p><strong>ما هي:</strong> الصحة النفسية تعني الرفاه النفسي والعاطفي. القلق والاكتئاب وPTSD شائعة لدى من مروا بصدمات أو عدم استقرار أو موارد محدودة.</p>
+                    <h4>كيف تعرف أنك تعاني:</h4>
+                    <ul class="symptom-list">
+                        <li>صعوبة النوم بسبب القلق أو الضغط</li>
+                        <li>الشعور بالإرهاق أو التوتر المستمر</li>
+                        <li>الشعور بالعزلة</li>
+                        <li>صعوبة التركيز</li>
+                        <li>النوم الزائد أو القليل</li>
+                        <li>فقدان الاهتمام بما كان ممتعًا</li>
+                        <li>الشعور بالذنب أو الحزن المستمر</li>
+                    </ul>
+                </div>
+
+                <div class="mental-card">
+                    <h3>طرق طلب المساعدة</h3>
+                    <ul class="symptom-list">
+                        <li>التحدث مع شخص موثوق أو مجموعة دعم</li>
+                        <li>تمارين التنفس، الرسم أو الكتابة في دفتر، وقضاء وقت بالخارج</li>
+                        <li>البقاء متصلًا اجتماعيًا بمحادثات صغيرة يومية</li>
+                        <li>التحدث مع معالج أو مختص صحة نفسية عند توفره</li>
+                    </ul>
+                    <div class="treatment-info">
+                        <strong>تذكير:</strong> لست وحدك. الدعم والخطوات الصغيرة تساعد على التعافي.
+                    </div>
+                </div>
+            </div>
+
+            <div class="emergency-box" style="background: linear-gradient(135deg, #4C51BF, #2D3748); margin-top: 40px;">
+                <h3>موارد مجانية للصحة النفسية في كلاركستون</h3>
+                <ul class="clinic-list">
+                    <li>
+                        <span>برنامج الصحة النفسية للاجئين</span>
+                        <span>استشارات مجانية متاحة</span>
+                    </li>
+                    <li>
+                        <span>مجموعات دعم مجتمعية</span>
+                        <span>اجتماعات أسبوعية</span>
+                    </li>
+                    <li>
+                        <span>خط الأزمات (على مدار الساعة)</span>
+                        <span>988 - مجاني وسري</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Nutrition Section -->
+        <section id="nutrition" class="section">
+            <h2>التغذية والصحة البدنية</h2>
+            <div class="nutrition-content">
+                <div class="nutrition-card">
+                    <h3>سوء التغذية</h3>
+                    <img class="card-image contain" src="images/malnutrition.png" alt="طبق صحي متوازن">
+                    <p><strong>ما هو:</strong> يحدث سوء التغذية عندما يفتقر الجسم إلى العناصر الغذائية أو السعرات اللازمة للصحة. قد يكون بسبب المرض أو انعدام الأمن الغذائي أو ضعف امتصاص العناصر. الأطفال الصغار والحوامل هم الأكثر عرضة.</p>
+                    <ul class="symptom-list">
+                        <li>فقدان الوزن</li>
+                        <li>تعب</li>
+                        <li>ضعف</li>
+                        <li>تساقط الشعر</li>
+                        <li>دوخة</li>
+                    </ul>
+                    <div class="treatment-info">
+                        <strong>الحل:</strong> ركّز على وجبات غنية بالعناصر الغذائية والفيتامينات (D و C) والحديد. الوصول إلى وجبات متوازنة ضروري. يجب أن تتضمن الوجبة الصحية خضروات وبروتين وحبوب كاملة.
+                    </div>
+                </div>
+
+                <div class="nutrition-card">
+                    <h3>مشكلات الصحة البدنية</h3>
+                    <img class="card-image" src="images/physical-health-problems.jpg" alt="أشخاص يمارسون اليوغا في الهواء الطلق">
+                    <p><strong>ما هو:</strong> الصحة البدنية تعكس التغذية واللياقة والوقاية من الأمراض.</p>
+                    <h4>لماذا الصحة البدنية مهمة:</h4>
+                    <ul class="symptom-list">
+                        <li>تحسن المزاج والطاقة</li>
+                        <li>تساعد الجسم على البقاء قويًا عند الضغط</li>
+                        <li>تقلل خطر الأمراض والعدوى</li>
+                        <li>تدعم الصحة النفسية بخفض هرمونات التوتر</li>
+                        <li>تساعد على النمو والتطور</li>
+                    </ul>
+                    <h4>طرق تحسين الصحة البدنية:</h4>
+                    <ul class="clinic-list">
+                        <li>
+                            <span>المشي اليومي يقوي القلب والعضلات</span>
+                            <span>جرّب مشيًا قصيرًا بعد الوجبات</span>
+                        </li>
+                        <li>
+                            <span>تمارين التمدد أو القرفصاء أو الضغط تساعد على ضبط الوزن</span>
+                            <span>ابدأ بـ 5-10 دقائق</span>
+                        </li>
+                        <li>
+                            <span>تناول وجبات بسيطة وصحية ومتوازنة</span>
+                            <span>استخدم الطبق الصحي كدليل</span>
+                        </li>
+                        <li>
+                            <span>حافظ على نظافة المنزل وأدخل هواءً نقيًا</span>
+                            <span>افتح النوافذ عند الإمكان</span>
+                        </li>
+                        <li>
+                            <span>حافظ على اللقاحات والفحوصات السنوية</span>
+                            <span>راجع العيادات منخفضة التكلفة</span>
+                        </li>
+                        <li>
+                            <span>النوم 8 ساعات على الأقل كل ليلة</span>
+                            <span>الراحة تدعم الشفاء والتركيز</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Immunization Section -->
+        <section id="vaccines" class="section">
+            <h2>التطعيمات</h2>
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <h3>الجدول الموصى به لتطعيمات الأطفال والمراهقين حتى 18 سنة، الولايات المتحدة 2026</h3>
+                    <p>الجدول 1: اللقاحات الروتينية حسب العمر (من الولادة حتى 18 عامًا).</p>
+                    <p><strong>الملف:</strong> <a href="images/Recommended%20Child%20and%20Adolescent%20Immunization%20Schedule%20for%2018%20years%20or%20younger,%20United%20States.pdf">جدول تطعيم الأطفال والمراهقين حتى 18 سنة - الولايات المتحدة 2026 (PDF)</a></p>
+                </div>
+                <div class="resource-card">
+                    <h3>الجدول الموصى به لتطعيمات الأطفال والمراهقين حسب الحالة الطبية، الولايات المتحدة 2026</h3>
+                    <p>الجدول 3: اللقاحات الموصى بها حسب الحالات الطبية وعوامل الخطورة.</p>
+                    <p><strong>الملف:</strong> <a href="images/Reccomended%20Child%20and%20adolescent%20immunization%20schedule%20by%20medical%20indication.pdf">جدول التطعيم حسب الحالة الطبية للأطفال والمراهقين (PDF)</a></p>
+                </div>
+                <div class="resource-card">
+                    <h3>الجدول الاستدراكي الموصى به للأطفال والمراهقين المتأخرين عن التطعيم، الولايات المتحدة 2026</h3>
+                    <p>الجدول 2: جدول الاستدراك للأطفال والمراهقين الذين بدأوا متأخرًا أو تأخروا أكثر من شهر.</p>
+                    <p><strong>الملف:</strong> <a href="images/Reccomended%20Catch-Up%20immunization%20Schedule%20for%20Children%20and%20Adolescents%20who%20start%20late.pdf">جدول التطعيم الاستدراكي للأطفال والمراهقين المتأخرين (PDF)</a></p>
+                </div>
+                <div class="resource-card">
+                    <h3>اللقاحات وعوامل التحصين الأخرى ضمن جدول تطعيم الأطفال والمراهقين</h3>
+                    <p>قائمة تفصيلية لاختصارات اللقاحات وأسمائها التجارية لمعلومات أكثر تحديدًا.</p>
+                    <p><strong>الملف:</strong> <a href="images/AAP-Immunization-Schedule.pdf">قائمة اللقاحات والاختصارات (AAP) (PDF)</a></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resources Section -->
+        <section id="resources" class="section">
+            <h2>العيادات والموارد في كلاركستون</h2>
+            <div class="resources-grid">
+                <div class="resource-group">
+                    <h3>العيادات المجانية</h3>
+                    <div class="resource-card">
+                        <h3>عيادات ومراكز مجانية محلية</h3>
+                        <p>عيادة كلاركستون — الأحد | 11:00 ص – 2:00 م — 4773 Memorial Dr, Decatur, GA 30032 (بجوار ICNA Relief Food Pantry)</p>
+                        <p>عيادة دولوث — الخميس والسبت | 10:00 ص – 2:00 م — 3650 Savannah Pl Dr, Duluth, GA 3009 — هاتف: (770-837-5805)</p>
+                        <p>عيادة الفاروق — مفتوحة الأحد 12–2م — https://alfarooqmasjid.org/services/medical-clinic/</p>
+                        <p>مركز East Cobb الإسلامي — مفتوح السبت 9–11:30ص — https://www.ecicfreeclinic.org/</p>
+                        <p>عيادة Good Samaritan — https://goodsamatlanta.org — مواعيد متفاوتة ألقِ نظرة على الموقع</p>
+                        <p>عيادة Shifa Duluth — https://shifaclinicduluth.weebly.com/ — السبت 10ص–1م (بالحجز)</p>
+                        <p>عيادة H.E.A.L — https://www.morehousehealthcare.com/programs/heal.html — السبت 10ص–1م</p>
+                        <p>عيادة Grant Park — https://www.grantparkclinic.org/ — مواعيد متفاوتة</p>
+                        <p>خدمات Positive Impact — فحوصات HIV مجانية وفحوصات STI متاحة في المراكز المتعددة</p>
+                    </div>
+                </div>
+
+                <div class="resource-group">
+                    <h3>العيادات منخفضة التكلفة</h3>
+                    <div class="resource-card">
+                        <h3>مركز موزاييك الصحي</h3>
+                        <p><strong>المهمة:</strong> تقديم رعاية منخفضة التكلفة للمرضى بدون تأمين، مع فريق متعدد اللغات.</p>
+                        <p><strong>الهاتف:</strong> (678) 383-1383</p>
+                        <p><strong>البريد الإلكتروني:</strong> info@mosaichealthcenter.com</p>
+                        <p><strong>العنوان:</strong> 3700 Market Street, Building B, Clarkston, GA 30021</p>
+                        <p><strong>الخدمات:</strong> رعاية أولية، صحة المرأة، صحة نفسية، نظر، جلدية، تصوير بالموجات فوق الصوتية، قلب، وإحالات تخصصية منخفضة التكلفة</p>
+                        <p><strong>الموقع:</strong> <a href="https://www.mosaichealthcenter.com/" target="_blank" rel="noopener noreferrer">mosaichealthcenter.com</a></p>
+                    </div>
+
+                    <div class="resource-card">
+                        <h3>عيادة رعاية الأطباء</h3>
+                        <p><strong>المهمة:</strong> تقديم رعاية طبية غير طارئة عالية الجودة للأفراد ذوي الدخل المحدود وغير المؤمن عليهم.</p>
+                        <p><strong>الهاتف:</strong> (404) 501-7940</p>
+                        <p><strong>العنوان:</strong> 440 Winn Way, Decatur, GA 30033</p>
+                        <p><strong>الخدمات:</strong> رعاية طبية أولية، إحالات اختصاصية، صيدلية داخلية، فحوصات واختبارات تشخيصية</p>
+                        <p><strong>الموقع:</strong> <a href="https://www.physicianscareclinic.org/" target="_blank" rel="noopener noreferrer">physicianscareclinic.org</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="emergency-box" style="background: linear-gradient(135deg, #D69E2E, #B7791F); margin-top: 40px;">
+                <h3>مساعدة النقل</h3>
+                <p>بطاقات MARTA مجانية متاحة للمواعيد الطبية</p>
+                <p><strong>اتصل بمنظمة إيثار:</strong> (470) 235-2383</p>
+                <p>يمكنهم المساعدة في النقل إلى المواعيد الطبية</p>
+            </div>
+        </section>
+
+        <!-- Food Banks Section -->
+        <section id="food-banks" class="section">
+            <h2>بنوك الطعام في أتلانتا:</h2>
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <h3>وسط المدينة:</h3>
+                    <p>تحالف العدالة في أتلانتا: معظم أيام السبت الساعة 12 ظهرًا في Woodruff Park. إنستغرام: @atlantajusticealliance، العنوان: 10 Park Place NE, Atlanta, GA 30303</p>
+                    <p>Food Not Bombs: أول جمعة من كل شهر الساعة 7 مساءً أمام For Keeps Books؛ والجمعتان الثانية والرابعة من 7-9 مساءً عند تقاطع MLK Jr Dr SW مع Morehouse. إنستغرام: @atlfoodnotbombs</p>
+                </div>
+                <div class="resource-card">
+                    <h3>الجنوب:</h3>
+                    <p>ATL Liberation Distro: كل أربعاء من 1-4 مساءً في Greenbriar Rec Center. إنستغرام: @southsideatl</p>
+                    <p>Free99 Fridge: رفوف طعام يومية في: 2022 Oakland Drive, Atlanta 30315؛ و 879 Dill Ave SW Atlanta 30310؛ و 3124 Metropolitan Pkwy, Atlanta 30311</p>
+                    <p>عشاء مجتمع East End: كل ثلاثاء الساعة 5 مساءً في Lifelong Wellness. إنستغرام: @east_end_commons_atl</p>
+                </div>
+                <div class="resource-card">
+                    <h3>الشرق:</h3>
+                    <p>توزيع طعام Tabernacle of Praise: كل خميس ثالث من 11 صباحًا إلى 2 ظهرًا في 3020 Maynard Holbrook Jr Dr NW. هاتف: 4046969606</p>
+                    <p>مخزن طعام Rehoboth: كل ثلاثاء من 10:30 صباحًا إلى 1 ظهرًا في 2997 Lawrenceville Hwy. هاتف: 6787202510</p>
+                    <p>Intown Cares: مخزن طعام من الإثنين إلى الجمعة، 9:30 صباحًا - 12:30 ظهرًا في 1026 Ponce de Leon Ave NE, Atlanta. هاتف: 4048811991</p>
+                </div>
+                <div class="resource-card">
+                    <h3>الغرب:</h3>
+                    <p>Free99 Fridge: في أنحاء أتلانتا، كل جمعة من 11 صباحًا إلى 4 مساءً في 3728 Wendell Dr SW. إنستغرام: @free99fridge</p>
+                    <p>Goodr Grocery PopUps: تابع إنستغرام لمعرفة الفعاليات الأسبوعية. إنستغرام: @goodrco</p>
+                    <p>معرض الطعام Westside: كل أحد من 1-3 مساءً في 970 Jefferson St NW. إنستغرام: @happy_tuesday</p>
+                    <p>Fountain of Hope: من 10 صباحًا إلى 12 ظهرًا يومي الثلاثاء والخميس في 1138 Bolton Rd. هاتف: 4049847990</p>
+                </div>
+                <div class="resource-card">
+                    <h3>منطقة باكهيد:</h3>
+                    <p>Grain of Rice: وجبات ساخنة مجانية كل صباح أحد قرب Lindbergh. راسل @consult.slfa للمعلومات</p>
+                </div>
+                <div class="resource-card">
+                    <h3>خارج المحيط:</h3>
+                    <p>Stone Mountain: دشّات وخيام ومخزن طعام - Maranatha SDA Church في 2730 Dresden Dr. هاتف: 4042841409</p>
+                    <p>مخازن طعام أخرى: راجع www.foodpantries.org/ci/ga-atlanta</p>
+                </div>
+                <div class="resource-card">
+                    <h3>ملاحظات أخرى:</h3>
+                    <p>يتم تحديث معظم المعلومات أسبوعيًا</p>
+                    <p>قد تتغير أرقام الهواتف</p>
+                    <p>الكثير من هذا العمل يعتمد على جهود منظمي المجتمع</p>
+                    <p>هذه القائمة أُعدّت بشكل مجهول. إذا كانت لديكم مبادرة مجتمعية في حيّكم، يمكن التواصل عبر: fonb.atl313@protonmail.com</p>
+                    <p>إذا أردتم إضافة مبادرتكم إلى هذه القائمة أو المساعدة، راسلوا: @xvansesatlanta_</p>
+                </div>
+            </div>
+        </section>
+
+                <!-- Survey Section -->
+<section id="survey" class="section">
+            <h2>استبيان ملاحظات الموقع</h2>
+            <p>ساعدنا في تحسين هذا الموقع لخدمة مجتمع اللاجئين بشكل أفضل</p>
+            
+            <div class="survey-section">
+                <form id="website-feedback-form" action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="8aed7e01-bf2e-44f4-a589-6481b6fcdf74">
+                    <input type="hidden" name="subject" value="Website Feedback - Refugee Health Literacy">
+                    <input type="hidden" name="from_name" value="Health Literacy Website Feedback">
+                    
+                    <!-- Name Field (ONLY ONE) -->
+                    <div class="form-group">
+                        <label for="feedback-name"><i class="fas fa-user"></i> اسمك (اختياري)</label>
+                        <input type="text" id="feedback-name" name="name" placeholder="أدخل اسمك">
+                    </div>
+                    
+                    <!-- Email Field (ONLY ONE) -->
+                    <div class="form-group">
+                        <label for="feedback-email"><i class="fas fa-envelope"></i> عنوان البريد الإلكتروني (اختياري)</label>
+                        <input type="email" id="feedback-email" name="email" placeholder="أدخل بريدك الإلكتروني إذا كنت ترغب في الرد">
+                    </div>
+
+                    <div class="survey-question">
+                        <h4>1. ما مدى سهولة العثور على المعلومات التي تحتاجها؟</h4>
+                        <div class="options">
+                            <label class="option-label">
+                                <input type="radio" name="ease_of_use" value="Very Easy" required>
+                                <span class="option-text">سهلة جدًا</span>
+                            </label>
+                            <label class="option-label">
+                                <input type="radio" name="ease_of_use" value="Easy">
+                                <span class="option-text">سهلة</span>
+                            </label>
+                            <label class="option-label">
+                                <input type="radio" name="ease_of_use" value="Somewhat Difficult">
+                                <span class="option-text">صعبة إلى حد ما</span>
+                            </label>
+                            <label class="option-label">
+                                <input type="radio" name="ease_of_use" value="Very Difficult">
+                                <span class="option-text">صعبة جدًا</span>
+                            </label>
+                        </div>
+                    </div>
+
+
+                    <div class="survey-question">
+                        <h4>2. أي لغة استخدمت أكثر؟ (اختر كل ما ينطبق)</h4>
+                        <div class="options">
+                            <label class="option-label checkbox-label">
+                                <input type="checkbox" name="languages_used[]" value="English">
+                                <span class="option-text">الإنجليزية</span>
+                            </label>
+                            <label class="option-label checkbox-label">
+                                <input type="checkbox" name="languages_used[]" value="Arabic">
+                                <span class="option-text">العربية</span>
+                            </label>
+                            <label class="option-label checkbox-label">
+                                <input type="checkbox" name="languages_used[]" value="Pashto">
+                                <span class="option-text">البشتو</span>
+                            </label>
+                            <label class="option-label checkbox-label">
+                                <input type="checkbox" name="languages_used[]" value="Burmese">
+                                <span class="option-text">البورمية (မြန်မာ)</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="survey-question">
+                        <h4>3. ما أقسام الموقع التي وجدتها الأكثر فائدة؟</h4>
+                        <div class="options">
+                            <label class="option-label checkbox-label">
+                                <input type="checkbox" name="useful_sections[]" value="Common Illnesses">
+                                <span class="option-text">الأمراض الشائعة</span>
+                            </label>
+                            <label class="option-label checkbox-label">
+                                <input type="checkbox" name="useful_sections[]" value="Mental Health">
+                                <span class="option-text">الصحة النفسية</span>
+                            </label>
+                            <label class="option-label checkbox-label">
+                                <input type="checkbox" name="useful_sections[]" value="Nutrition">
+                                <span class="option-text">التغذية والصحة البدنية</span>
+                            </label>
+                            <label class="option-label checkbox-label">
+                                <input type="checkbox" name="useful_sections[]" value="Vaccines">
+                                <span class="option-text">معلومات اللقاحات</span>
+                            </label>
+                            <label class="option-label checkbox-label">
+                                <input type="checkbox" name="useful_sections[]" value="Free Clinics">
+                                <span class="option-text">العيادات المجانية والموارد</span>
+                            </label>
+                            <label class="option-label checkbox-label">
+                                <input type="checkbox" name="useful_sections[]" value="Emergency">
+                                <span class="option-text">معلومات الطوارئ</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="survey-question">
+                        <h4>4. ماذا يمكننا تحسينه في هذا الموقع؟ (اختر كل ما ينطبق)</h4>
+                        <div class="options">
+                            <label class="option-label checkbox-label">
+                                <input type="checkbox" name="improvements[]" value="More Languages">
+                                <span class="option-text">إضافة المزيد من اللغات</span>
+                            </label>
+                            <label class="option-label checkbox-label">
+                                <input type="checkbox" name="improvements[]" value="More Illnesses">
+                                <span class="option-text">تغطية مزيد من الأمراض</span>
+                            </label>
+                            <label class="option-label checkbox-label">
+                                <input type="checkbox" name="improvements[]" value="Better Navigation">
+                                <span class="option-text">تسهيل التنقل</span>
+                            </label>
+                            <label class="option-label checkbox-label">
+                                <input type="checkbox" name="improvements[]" value="Mobile Friendly">
+                                <span class="option-text">جعله أكثر ملاءمة للجوال</span>
+                            </label>
+                            <label class="option-label checkbox-label">
+                                <input type="checkbox" name="improvements[]" value="More Resources">
+                                <span class="option-text">إضافة المزيد من الموارد المحلية</span>
+                            </label>
+                            <label class="option-label checkbox-label">
+                                <input type="checkbox" name="improvements[]" value="Faster Loading">
+                                <span class="option-text">جعله أسرع في التحميل</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="survey-question">
+                        <h4>5. كيف سمعت عن هذا الموقع؟</h4>
+                        <div class="options">
+                            <label class="option-label">
+                                <input type="radio" name="referral_source" value="Ethaar Organization" required>
+                                <span class="option-text">منظمة إيثار</span>
+                            </label>
+                            <label class="option-label">
+                                <input type="radio" name="referral_source" value="Friend/Family">
+                                <span class="option-text">صديق أو أحد أفراد الأسرة</span>
+                            </label>
+                            <label class="option-label">
+                                <input type="radio" name="referral_source" value="Community Center">
+                                <span class="option-text">مركز مجتمع كلاركستون</span>
+                            </label>
+                            <label class="option-label">
+                                <input type="radio" name="referral_source" value="Doctor/Clinic">
+                                <span class="option-text">طبيب أو عيادة</span>
+                            </label>
+                            <label class="option-label">
+                                <input type="radio" name="referral_source" value="Other">
+                                <span class="option-text">أخرى</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="survey-question">
+                        <h4>6. ما مدى احتمالية أن توصي بهذا الموقع للآخرين؟</h4>
+                        <div class="rating-scale">
+                            <div class="scale-labels">
+                                <span>غير محتمل على الإطلاق</span>
+                                <span>مرجح جدًا</span>
+                            </div>
+                            <div class="scale-options">
+                                <label class="scale-label">
+                                    <input type="radio" name="recommendation" value="1" required>
+                                    <span class="scale-number">1</span>
+                                </label>
+                                <label class="scale-label">
+                                    <input type="radio" name="recommendation" value="2">
+                                    <span class="scale-number">2</span>
+                                </label>
+                                <label class="scale-label">
+                                    <input type="radio" name="recommendation" value="3">
+                                    <span class="scale-number">3</span>
+                                </label>
+                                <label class="scale-label">
+                                    <input type="radio" name="recommendation" value="4">
+                                    <span class="scale-number">4</span>
+                                </label>
+                                <label class="scale-label">
+                                    <input type="radio" name="recommendation" value="5">
+                                    <span class="scale-number">5</span>
+                                </label>
+                                <label class="scale-label">
+                                    <input type="radio" name="recommendation" value="6">
+                                    <span class="scale-number">6</span>
+                                </label>
+                                <label class="scale-label">
+                                    <input type="radio" name="recommendation" value="7">
+                                    <span class="scale-number">7</span>
+                                </label>
+                                <label class="scale-label">
+                                    <input type="radio" name="recommendation" value="8">
+                                    <span class="scale-number">8</span>
+                                </label>
+                                <label class="scale-label">
+                                    <input type="radio" name="recommendation" value="9">
+                                    <span class="scale-number">9</span>
+                                </label>
+                                <label class="scale-label">
+                                    <input type="radio" name="recommendation" value="10">
+                                    <span class="scale-number">10</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Additional Suggestions Field (ONLY ONE) -->
+                    <div class="survey-question">
+                        <h4>7. اقتراحات إضافية للتحسين</h4>
+                        <div class="form-group">
+                            <textarea id="feedback-message" name="message" rows="6" placeholder="يرجى مشاركة أي اقتراحات محددة أو مشكلات واجهتها أو ميزات ترغب في إضافتها..."></textarea>
+                        </div>
+                    </div>
+                    
+                    <div class="form-footer">
+                        <button type="submit" class="submit-btn">
+                            <i class="fas fa-paper-plane"></i> إرسال الملاحظات
+                        </button>
+                        <p class="form-note">ملاحظاتك سرية ولن تُستخدم إلا لتحسين هذا الموقع.</p>
+                    </div>
+                    
+                    <div id="form-success" class="form-success" style="display: none;">
+                        <i class="fas fa-check-circle"></i>
+                        <h3>شكرًا لك على ملاحظاتك!</h3>
+                        <p>تم إرسال اقتراحاتك بنجاح. سنستخدمها لتحسين هذا الموقع للجميع.</p>
+                    </div>
+                    
+                    <div id="form-error" class="form-error" style="display: none;">
+                        <i class="fas fa-exclamation-circle"></i>
+                        <h3>عذرًا! حدث خطأ ما.</h3>
+                        <p>يرجى المحاولة مرة أخرى أو التواصل معنا مباشرة عبر healthclarkston@gmail.com</p>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <!-- Emergency Section -->
+<section id="emergency" class="section">
+            <div class="emergency-box">
+                <h2><i class="fas fa-exclamation-triangle"></i> مساعدة الطوارئ</h2>
+                <p>إذا كنت أنت أو شخص آخر بحاجة إلى مساعدة طبية فورية:</p>
+                
+                <div class="emergency-contacts">
+                    <div class="contact-card">
+                        <h3>اتصل بـ 911</h3>
+                        <p>للحالات المهددة للحياة</p>
+                        <p><strong>مكالمة مجانية من أي هاتف</strong></p>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <h3>مركز مكافحة السموم</h3>
+                        <p>1-800-222-1222</p>
+                        <p>مساعدة مجانية على مدار الساعة وبالعديد من اللغات</p>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <h3>خط الأزمات</h3>
+                        <p>اتصل بـ 988</p>
+                        <p>دعم أزمات الصحة النفسية</p>
+                    </div>
+                </div>
+
+                <h3 style="margin-top: 30px;">متى تذهب إلى قسم الطوارئ:</h3>
+                <ul class="symptom-list" style="background: rgba(255,255,255,0.1); border-left: 4px solid white;">
+                    <li>ألم أو ضغط في الصدر</li>
+                    <li>صعوبة في التنفس</li>
+                    <li>نزيف شديد</li>
+                    <li>ضعف أو خدر مفاجئ</li>
+                    <li>حرق شديد</li>
+                    <li>كسر في العظام</li>
+                    <li>جرعة زائدة أو تسمم</li>
+                    <li>أفكار بإيذاء نفسك أو الآخرين</li>
+                </ul>
+
+                <div style="background: white; color: #E53E3E; padding: 20px; border-radius: 10px; margin-top: 20px;">
+                    <h4><i class="fas fa-ambulance"></i> أقرب مستشفى إلى كلاركستون:</h4>
+                    <p><strong>مستشفى إيموري ديكاتور (Emory Decatur Hospital)</strong></p>
+                    <p>2701 N Decatur Road, Decatur, GA 30033</p>
+                    <p><strong>قسم الطوارئ:</strong> (404) 501-1000</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <h3>التثقيف الصحي للاجئين في كلاركستون</h3>
+            <p>أُنشئ بالشراكة مع مجتمع كلاركستون</p>
+            
+            <div class="partner-logos">
+                <div class="partner-logo">منظمة إيثار (Ethaar Organization)</div>
+            </div>
+            
+            <p style="margin-top: 20px; opacity: 0.8;">
+                هل تحتاج إلى مساعدة؟ اتصل بإيثار: (470) 235-2383
+            </p>
+
+</div>
+    </footer>
+
+        <!-- Hugging Face Chatbot -->
+    <div class="chatbot-container" id="chatbotContainer">
+        <div class="chatbot-header">
+            <h3><i class="fas fa-robot"></i> المساعد الصحي</h3>
+            <button class="close-chatbot" id="closeChatbot">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="chatbot-messages" id="chatbotMessages">
+            <div class="message bot-message">
+                <p>مرحبًا! أنا مساعد المعلومات الصحية الخاص بك. يمكنني مساعدتك في الإجابة عن الأسئلة حول الأمراض الشائعة، والصحة النفسية، والتغذية، واللقاحات، والموارد المحلية في كلاركستون. كيف يمكنني مساعدتك اليوم؟</p>
+            </div>
+        </div>
+        <div class="chatbot-input">
+            <input type="text" id="chatbotInput" placeholder="اكتب سؤالك الصحي هنا..." autocomplete="off">
+            <button id="sendChatbotMessage">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Chatbot Toggle Button (Floating) -->
+    <button class="chatbot-toggle" id="chatbotToggle">
+        <i class="fas fa-robot"></i>
+        <span>المساعد الصحي</span>
+    </button>
+
+    <script>
+        window.CHATBOT_API_BASE_URL = "https://health-chatbot-worker.yoshvithaa.workers.dev";
+    </script>
+    <script src="script.js?v=20260322"></script>
+</body>
+</html>
